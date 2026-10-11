@@ -1,0 +1,92 @@
+{
+ "heart_levo_machine_a_vs_machine_b": {
+  "HeartMuLa": {
+   "p0": {
+    "machine_a": 0.5015,
+    "machine_b": 0.5014
+   },
+   "p1": {
+    "machine_a": 0.874,
+    "machine_b": 0.8742
+   }
+  },
+  "LeVo": {
+   "p0": {
+    "machine_a": 0.5643,
+    "machine_b": 0.5595
+   },
+   "p1": {
+    "machine_a": 0.7984,
+    "machine_b": 0.8129
+   }
+  }
+ },
+ "pairs_all_on_machine_a": {
+  "LeVo − HeartMuLa": {
+   "p0": [
+    0.063,
+    -0.001,
+    0.129
+   ],
+   "p1": [
+    -0.076,
+    -0.124,
+    -0.028
+   ]
+  },
+  "LeVo − 2B+pl": {
+   "p0": [
+    0.196,
+    0.116,
+    0.274
+   ],
+   "p1": [
+    -0.015,
+    -0.072,
+    0.048
+   ]
+  },
+  "LeVo − XL": {
+   "p0": [
+    0.453,
+    0.391,
+    0.514
+   ],
+   "p1": [
+    0.068,
+    -0.01,
+    0.151
+   ]
+  },
+  "HeartMuLa − 2B+pl": {
+   "p0": [
+    0.133,
+    0.052,
+    0.216
+   ],
+   "p1": [
+    0.06,
+    -0.006,
+    0.131
+   ]
+  }
+ },
+ "rank_all_on_machine_a": {
+  "p0": [
+   "LeVo",
+   "HeartMuLa",
+   "2B+pl",
+   "2B",
+   "XL+pl",
+   "XL"
+  ],
+  "p1": [
+   "HeartMuLa",
+   "2B+pl",
+   "LeVo",
+   "XL+pl",
+   "XL",
+   "2B"
+  ]
+ }
+}

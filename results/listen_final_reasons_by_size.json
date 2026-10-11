@@ -1,0 +1,22 @@
+{
+ "2B": {
+  "responses": 124,
+  "not_most": 69,
+  "slurred": 28,
+  "none": 26,
+  "masked": 4,
+  "other": 11,
+  "masked_share_of_not_most": 0.058,
+  "masked_share_of_all": 0.032
+ },
+ "XL": {
+  "responses": 112,
+  "not_most": 71,
+  "slurred": 31,
+  "none": 17,
+  "masked": 17,
+  "other": 6,
+  "masked_share_of_not_most": 0.239,
+  "masked_share_of_all": 0.152
+ }
+}

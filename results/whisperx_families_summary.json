@@ -1,0 +1,117 @@
+{
+ "note": "WhisperX 3.8.6 defaults (pyannote VAD) on HeartMuLa/LeVo; ACE-Step rows from an earlier run on another machine (version not logged, inferred 3.8.6). Exploratory.",
+ "means_whisperx": {
+  "2B": 0.4679,
+  "2B+pl": 0.5244,
+  "XL": 0.4347,
+  "XL+pl": 0.4507,
+  "HeartMuLa": 0.717,
+  "LeVo": 0.7557
+ },
+ "means_vad_off": {
+  "2B": 0.6501,
+  "2B+pl": 0.8139,
+  "XL": 0.7301,
+  "XL+pl": 0.7456,
+  "HeartMuLa": 0.8742,
+  "LeVo": 0.8129
+ },
+ "rank_whisperx": [
+  "LeVo",
+  "HeartMuLa",
+  "2B+pl",
+  "2B",
+  "XL+pl",
+  "XL"
+ ],
+ "rank_vad_off": [
+  "HeartMuLa",
+  "2B+pl",
+  "LeVo",
+  "XL+pl",
+  "XL",
+  "2B"
+ ],
+ "pairs": {
+  "LeVo − HeartMuLa": {
+   "whisperx": {
+    "diff": 0.0387,
+    "ci95": [
+     -0.007,
+     0.0867
+    ]
+   },
+   "vad_off": {
+    "diff": -0.0612,
+    "ci95": [
+     -0.1048,
+     -0.0178
+    ]
+   }
+  },
+  "LeVo − 2B+pl": {
+   "whisperx": {
+    "diff": 0.2312,
+    "ci95": [
+     0.176,
+     0.2863
+    ]
+   },
+   "vad_off": {
+    "diff": -0.0009,
+    "ci95": [
+     -0.0543,
+     0.0588
+    ]
+   }
+  },
+  "HeartMuLa − 2B+pl": {
+   "whisperx": {
+    "diff": 0.1926,
+    "ci95": [
+     0.1302,
+     0.2535
+    ]
+   },
+   "vad_off": {
+    "diff": 0.0603,
+    "ci95": [
+     -0.0073,
+     0.1318
+    ]
+   }
+  },
+  "LeVo − XL": {
+   "whisperx": {
+    "diff": 0.321,
+    "ci95": [
+     0.2628,
+     0.3769
+    ]
+   },
+   "vad_off": {
+    "diff": 0.0828,
+    "ci95": [
+     0.0097,
+     0.1615
+    ]
+   }
+  },
+  "HeartMuLa − XL": {
+   "whisperx": {
+    "diff": 0.2823,
+    "ci95": [
+     0.2173,
+     0.3456
+    ]
+   },
+   "vad_off": {
+    "diff": 0.144,
+    "ci95": [
+     0.069,
+     0.2229
+    ]
+   }
+  }
+ }
+}

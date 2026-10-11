@@ -1,0 +1,1880 @@
+{
+ "n_universes": 20,
+ "pipelines_no_vad": [
+  "fw VAD off",
+  "fw off + check",
+  "all vocals",
+  "openai-whisper",
+  "transformers",
+  "Parakeet"
+ ],
+ "pipelines_vad": [
+  "fw VAD 0.5",
+  "fw VAD 0.3",
+  "fw VAD 0.1",
+  "WhisperX"
+ ],
+ "metrics": [
+  "recall",
+  "wer"
+ ],
+ "pairs": {
+  "2B vs 2B+pl": {
+   "all": {
+    "2B": 0,
+    "2B+pl": 18,
+    "n.s.": 2,
+    "n": 20
+   },
+   "no_vad": {
+    "2B": 0,
+    "2B+pl": 11,
+    "n.s.": 1,
+    "n": 12
+   },
+   "vad": {
+    "2B": 0,
+    "2B+pl": 7,
+    "n.s.": 1,
+    "n": 8
+   },
+   "both_directions_significant": false,
+   "both_directions_significant_no_vad": false
+  },
+  "2B vs XL": {
+   "all": {
+    "2B": 4,
+    "XL": 7,
+    "n.s.": 9,
+    "n": 20
+   },
+   "no_vad": {
+    "2B": 0,
+    "XL": 7,
+    "n.s.": 5,
+    "n": 12
+   },
+   "vad": {
+    "2B": 4,
+    "XL": 0,
+    "n.s.": 4,
+    "n": 8
+   },
+   "both_directions_significant": true,
+   "both_directions_significant_no_vad": false
+  },
+  "2B vs XL+pl": {
+   "all": {
+    "2B": 4,
+    "XL+pl": 9,
+    "n.s.": 7,
+    "n": 20
+   },
+   "no_vad": {
+    "2B": 0,
+    "XL+pl": 9,
+    "n.s.": 3,
+    "n": 12
+   },
+   "vad": {
+    "2B": 4,
+    "XL+pl": 0,
+    "n.s.": 4,
+    "n": 8
+   },
+   "both_directions_significant": true,
+   "both_directions_significant_no_vad": false
+  },
+  "2B+pl vs XL": {
+   "all": {
+    "2B+pl": 12,
+    "XL": 0,
+    "n.s.": 8,
+    "n": 20
+   },
+   "no_vad": {
+    "2B+pl": 4,
+    "XL": 0,
+    "n.s.": 8,
+    "n": 12
+   },
+   "vad": {
+    "2B+pl": 8,
+    "XL": 0,
+    "n.s.": 0,
+    "n": 8
+   },
+   "both_directions_significant": false,
+   "both_directions_significant_no_vad": false
+  },
+  "2B+pl vs XL+pl": {
+   "all": {
+    "2B+pl": 10,
+    "XL+pl": 0,
+    "n.s.": 10,
+    "n": 20
+   },
+   "no_vad": {
+    "2B+pl": 2,
+    "XL+pl": 0,
+    "n.s.": 10,
+    "n": 12
+   },
+   "vad": {
+    "2B+pl": 8,
+    "XL+pl": 0,
+    "n.s.": 0,
+    "n": 8
+   },
+   "both_directions_significant": false,
+   "both_directions_significant_no_vad": false
+  },
+  "XL vs XL+pl": {
+   "all": {
+    "XL": 0,
+    "XL+pl": 1,
+    "n.s.": 19,
+    "n": 20
+   },
+   "no_vad": {
+    "XL": 0,
+    "XL+pl": 1,
+    "n.s.": 11,
+    "n": 12
+   },
+   "vad": {
+    "XL": 0,
+    "XL+pl": 0,
+    "n.s.": 8,
+    "n": 8
+   },
+   "both_directions_significant": false,
+   "both_directions_significant_no_vad": false
+  }
+ },
+ "distinct_rankings": 6,
+ "rankings": {
+  "2B+pl > XL+pl > XL > 2B": [
+   "fw VAD off | recall",
+   "fw off + check | recall",
+   "transformers | recall",
+   "Parakeet | recall",
+   "fw off + check | wer",
+   "transformers | wer",
+   "Parakeet | wer"
+  ],
+  "2B+pl > XL > XL+pl > 2B": [
+   "all vocals | recall",
+   "openai-whisper | recall",
+   "fw VAD off | wer",
+   "openai-whisper | wer"
+  ],
+  "2B+pl > 2B > XL+pl > XL": [
+   "fw VAD 0.5 | recall",
+   "fw VAD 0.3 | recall",
+   "WhisperX | recall",
+   "fw VAD 0.5 | wer",
+   "fw VAD 0.3 | wer"
+  ],
+  "2B+pl > 2B > XL > XL+pl": [
+   "fw VAD 0.1 | recall",
+   "fw VAD 0.1 | wer"
+  ],
+  "XL+pl > 2B+pl > XL > 2B": [
+   "all vocals | wer"
+  ],
+  "2B+pl > XL+pl > 2B > XL": [
+   "WhisperX | wer"
+  ]
+ },
+ "distinct_rankings_no_vad": 3,
+ "distinct_rankings_vad": 3,
+ "top_system_counts": {
+  "2B+pl": 19,
+  "XL+pl": 1
+ },
+ "pairs_reversed_significantly": 2,
+ "pairs_reversed_significantly_no_vad": 0,
+ "cells": [
+  {
+   "pipe": "fw VAD off",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B vs 2B+pl",
+   "a": "2B",
+   "b": "2B+pl",
+   "diff": -0.1637,
+   "ci95": [
+    -0.2233,
+    -0.102
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "fw VAD off",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B vs XL",
+   "a": "2B",
+   "b": "XL",
+   "diff": -0.08,
+   "ci95": [
+    -0.1404,
+    -0.0158
+   ],
+   "verdict": "XL"
+  },
+  {
+   "pipe": "fw VAD off",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B vs XL+pl",
+   "a": "2B",
+   "b": "XL+pl",
+   "diff": -0.0954,
+   "ci95": [
+    -0.1632,
+    -0.0196
+   ],
+   "verdict": "XL+pl"
+  },
+  {
+   "pipe": "fw VAD off",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B+pl vs XL",
+   "a": "2B+pl",
+   "b": "XL",
+   "diff": 0.0837,
+   "ci95": [
+    0.0222,
+    0.1499
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "fw VAD off",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B+pl vs XL+pl",
+   "a": "2B+pl",
+   "b": "XL+pl",
+   "diff": 0.0683,
+   "ci95": [
+    0.0005,
+    0.141
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "fw VAD off",
+   "vad": false,
+   "metric": "recall",
+   "pair": "XL vs XL+pl",
+   "a": "XL",
+   "b": "XL+pl",
+   "diff": -0.0154,
+   "ci95": [
+    -0.0889,
+    0.062
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "fw off + check",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B vs 2B+pl",
+   "a": "2B",
+   "b": "2B+pl",
+   "diff": -0.1624,
+   "ci95": [
+    -0.2182,
+    -0.1064
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "fw off + check",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B vs XL",
+   "a": "2B",
+   "b": "XL",
+   "diff": -0.127,
+   "ci95": [
+    -0.1791,
+    -0.0739
+   ],
+   "verdict": "XL"
+  },
+  {
+   "pipe": "fw off + check",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B vs XL+pl",
+   "a": "2B",
+   "b": "XL+pl",
+   "diff": -0.1396,
+   "ci95": [
+    -0.1899,
+    -0.0848
+   ],
+   "verdict": "XL+pl"
+  },
+  {
+   "pipe": "fw off + check",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B+pl vs XL",
+   "a": "2B+pl",
+   "b": "XL",
+   "diff": 0.0354,
+   "ci95": [
+    -0.0048,
+    0.0748
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "fw off + check",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B+pl vs XL+pl",
+   "a": "2B+pl",
+   "b": "XL+pl",
+   "diff": 0.0228,
+   "ci95": [
+    -0.0241,
+    0.0721
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "fw off + check",
+   "vad": false,
+   "metric": "recall",
+   "pair": "XL vs XL+pl",
+   "a": "XL",
+   "b": "XL+pl",
+   "diff": -0.0126,
+   "ci95": [
+    -0.0567,
+    0.0335
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "all vocals",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B vs 2B+pl",
+   "a": "2B",
+   "b": "2B+pl",
+   "diff": -0.1454,
+   "ci95": [
+    -0.2137,
+    -0.075
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "all vocals",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B vs XL",
+   "a": "2B",
+   "b": "XL",
+   "diff": -0.1004,
+   "ci95": [
+    -0.1859,
+    -0.015
+   ],
+   "verdict": "XL"
+  },
+  {
+   "pipe": "all vocals",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B vs XL+pl",
+   "a": "2B",
+   "b": "XL+pl",
+   "diff": -0.0925,
+   "ci95": [
+    -0.1617,
+    -0.0188
+   ],
+   "verdict": "XL+pl"
+  },
+  {
+   "pipe": "all vocals",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B+pl vs XL",
+   "a": "2B+pl",
+   "b": "XL",
+   "diff": 0.045,
+   "ci95": [
+    -0.0156,
+    0.107
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "all vocals",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B+pl vs XL+pl",
+   "a": "2B+pl",
+   "b": "XL+pl",
+   "diff": 0.0528,
+   "ci95": [
+    -0.0058,
+    0.1138
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "all vocals",
+   "vad": false,
+   "metric": "recall",
+   "pair": "XL vs XL+pl",
+   "a": "XL",
+   "b": "XL+pl",
+   "diff": 0.0079,
+   "ci95": [
+    -0.0657,
+    0.0802
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "openai-whisper",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B vs 2B+pl",
+   "a": "2B",
+   "b": "2B+pl",
+   "diff": -0.1561,
+   "ci95": [
+    -0.2144,
+    -0.0947
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "openai-whisper",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B vs XL",
+   "a": "2B",
+   "b": "XL",
+   "diff": -0.0797,
+   "ci95": [
+    -0.1382,
+    -0.0172
+   ],
+   "verdict": "XL"
+  },
+  {
+   "pipe": "openai-whisper",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B vs XL+pl",
+   "a": "2B",
+   "b": "XL+pl",
+   "diff": -0.0742,
+   "ci95": [
+    -0.1451,
+    0.004
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "openai-whisper",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B+pl vs XL",
+   "a": "2B+pl",
+   "b": "XL",
+   "diff": 0.0764,
+   "ci95": [
+    0.0146,
+    0.143
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "openai-whisper",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B+pl vs XL+pl",
+   "a": "2B+pl",
+   "b": "XL+pl",
+   "diff": 0.0819,
+   "ci95": [
+    0.0124,
+    0.1553
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "openai-whisper",
+   "vad": false,
+   "metric": "recall",
+   "pair": "XL vs XL+pl",
+   "a": "XL",
+   "b": "XL+pl",
+   "diff": 0.0055,
+   "ci95": [
+    -0.0655,
+    0.0807
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "transformers",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B vs 2B+pl",
+   "a": "2B",
+   "b": "2B+pl",
+   "diff": -0.1035,
+   "ci95": [
+    -0.1555,
+    -0.0462
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "transformers",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B vs XL",
+   "a": "2B",
+   "b": "XL",
+   "diff": -0.0575,
+   "ci95": [
+    -0.1141,
+    0.003
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "transformers",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B vs XL+pl",
+   "a": "2B",
+   "b": "XL+pl",
+   "diff": -0.1011,
+   "ci95": [
+    -0.1541,
+    -0.0452
+   ],
+   "verdict": "XL+pl"
+  },
+  {
+   "pipe": "transformers",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B+pl vs XL",
+   "a": "2B+pl",
+   "b": "XL",
+   "diff": 0.0459,
+   "ci95": [
+    -0.0093,
+    0.1034
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "transformers",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B+pl vs XL+pl",
+   "a": "2B+pl",
+   "b": "XL+pl",
+   "diff": 0.0024,
+   "ci95": [
+    -0.0401,
+    0.0442
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "transformers",
+   "vad": false,
+   "metric": "recall",
+   "pair": "XL vs XL+pl",
+   "a": "XL",
+   "b": "XL+pl",
+   "diff": -0.0436,
+   "ci95": [
+    -0.1068,
+    0.0178
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "Parakeet",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B vs 2B+pl",
+   "a": "2B",
+   "b": "2B+pl",
+   "diff": -0.1408,
+   "ci95": [
+    -0.193,
+    -0.0859
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "Parakeet",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B vs XL",
+   "a": "2B",
+   "b": "XL",
+   "diff": -0.1283,
+   "ci95": [
+    -0.1657,
+    -0.0857
+   ],
+   "verdict": "XL"
+  },
+  {
+   "pipe": "Parakeet",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B vs XL+pl",
+   "a": "2B",
+   "b": "XL+pl",
+   "diff": -0.1339,
+   "ci95": [
+    -0.1799,
+    -0.0826
+   ],
+   "verdict": "XL+pl"
+  },
+  {
+   "pipe": "Parakeet",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B+pl vs XL",
+   "a": "2B+pl",
+   "b": "XL",
+   "diff": 0.0125,
+   "ci95": [
+    -0.0168,
+    0.0432
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "Parakeet",
+   "vad": false,
+   "metric": "recall",
+   "pair": "2B+pl vs XL+pl",
+   "a": "2B+pl",
+   "b": "XL+pl",
+   "diff": 0.0069,
+   "ci95": [
+    -0.0278,
+    0.0407
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "Parakeet",
+   "vad": false,
+   "metric": "recall",
+   "pair": "XL vs XL+pl",
+   "a": "XL",
+   "b": "XL+pl",
+   "diff": -0.0057,
+   "ci95": [
+    -0.0394,
+    0.0316
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "fw VAD 0.5",
+   "vad": true,
+   "metric": "recall",
+   "pair": "2B vs 2B+pl",
+   "a": "2B",
+   "b": "2B+pl",
+   "diff": -0.0578,
+   "ci95": [
+    -0.112,
+    -0.0012
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "fw VAD 0.5",
+   "vad": true,
+   "metric": "recall",
+   "pair": "2B vs XL",
+   "a": "2B",
+   "b": "XL",
+   "diff": 0.1999,
+   "ci95": [
+    0.1442,
+    0.2567
+   ],
+   "verdict": "2B"
+  },
+  {
+   "pipe": "fw VAD 0.5",
+   "vad": true,
+   "metric": "recall",
+   "pair": "2B vs XL+pl",
+   "a": "2B",
+   "b": "XL+pl",
+   "diff": 0.1683,
+   "ci95": [
+    0.1115,
+    0.2291
+   ],
+   "verdict": "2B"
+  },
+  {
+   "pipe": "fw VAD 0.5",
+   "vad": true,
+   "metric": "recall",
+   "pair": "2B+pl vs XL",
+   "a": "2B+pl",
+   "b": "XL",
+   "diff": 0.2577,
+   "ci95": [
+    0.1946,
+    0.3234
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "fw VAD 0.5",
+   "vad": true,
+   "metric": "recall",
+   "pair": "2B+pl vs XL+pl",
+   "a": "2B+pl",
+   "b": "XL+pl",
+   "diff": 0.2261,
+   "ci95": [
+    0.1736,
+    0.2787
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "fw VAD 0.5",
+   "vad": true,
+   "metric": "recall",
+   "pair": "XL vs XL+pl",
+   "a": "XL",
+   "b": "XL+pl",
+   "diff": -0.0316,
+   "ci95": [
+    -0.0806,
+    0.0102
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "fw VAD 0.3",
+   "vad": true,
+   "metric": "recall",
+   "pair": "2B vs 2B+pl",
+   "a": "2B",
+   "b": "2B+pl",
+   "diff": -0.085,
+   "ci95": [
+    -0.1438,
+    -0.0239
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "fw VAD 0.3",
+   "vad": true,
+   "metric": "recall",
+   "pair": "2B vs XL",
+   "a": "2B",
+   "b": "XL",
+   "diff": 0.185,
+   "ci95": [
+    0.1201,
+    0.2514
+   ],
+   "verdict": "2B"
+  },
+  {
+   "pipe": "fw VAD 0.3",
+   "vad": true,
+   "metric": "recall",
+   "pair": "2B vs XL+pl",
+   "a": "2B",
+   "b": "XL+pl",
+   "diff": 0.1478,
+   "ci95": [
+    0.0811,
+    0.2172
+   ],
+   "verdict": "2B"
+  },
+  {
+   "pipe": "fw VAD 0.3",
+   "vad": true,
+   "metric": "recall",
+   "pair": "2B+pl vs XL",
+   "a": "2B+pl",
+   "b": "XL",
+   "diff": 0.27,
+   "ci95": [
+    0.2004,
+    0.3394
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "fw VAD 0.3",
+   "vad": true,
+   "metric": "recall",
+   "pair": "2B+pl vs XL+pl",
+   "a": "2B+pl",
+   "b": "XL+pl",
+   "diff": 0.2328,
+   "ci95": [
+    0.171,
+    0.2938
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "fw VAD 0.3",
+   "vad": true,
+   "metric": "recall",
+   "pair": "XL vs XL+pl",
+   "a": "XL",
+   "b": "XL+pl",
+   "diff": -0.0372,
+   "ci95": [
+    -0.097,
+    0.0194
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "fw VAD 0.1",
+   "vad": true,
+   "metric": "recall",
+   "pair": "2B vs 2B+pl",
+   "a": "2B",
+   "b": "2B+pl",
+   "diff": -0.1336,
+   "ci95": [
+    -0.1994,
+    -0.0692
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "fw VAD 0.1",
+   "vad": true,
+   "metric": "recall",
+   "pair": "2B vs XL",
+   "a": "2B",
+   "b": "XL",
+   "diff": 0.0117,
+   "ci95": [
+    -0.0644,
+    0.0875
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "fw VAD 0.1",
+   "vad": true,
+   "metric": "recall",
+   "pair": "2B vs XL+pl",
+   "a": "2B",
+   "b": "XL+pl",
+   "diff": 0.079,
+   "ci95": [
+    -0.0102,
+    0.1684
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "fw VAD 0.1",
+   "vad": true,
+   "metric": "recall",
+   "pair": "2B+pl vs XL",
+   "a": "2B+pl",
+   "b": "XL",
+   "diff": 0.1453,
+   "ci95": [
+    0.0665,
+    0.223
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "fw VAD 0.1",
+   "vad": true,
+   "metric": "recall",
+   "pair": "2B+pl vs XL+pl",
+   "a": "2B+pl",
+   "b": "XL+pl",
+   "diff": 0.2125,
+   "ci95": [
+    0.1413,
+    0.2871
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "fw VAD 0.1",
+   "vad": true,
+   "metric": "recall",
+   "pair": "XL vs XL+pl",
+   "a": "XL",
+   "b": "XL+pl",
+   "diff": 0.0673,
+   "ci95": [
+    -0.0151,
+    0.1515
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "WhisperX",
+   "vad": true,
+   "metric": "recall",
+   "pair": "2B vs 2B+pl",
+   "a": "2B",
+   "b": "2B+pl",
+   "diff": -0.0565,
+   "ci95": [
+    -0.1111,
+    0.0036
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "WhisperX",
+   "vad": true,
+   "metric": "recall",
+   "pair": "2B vs XL",
+   "a": "2B",
+   "b": "XL",
+   "diff": 0.0332,
+   "ci95": [
+    -0.0222,
+    0.0927
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "WhisperX",
+   "vad": true,
+   "metric": "recall",
+   "pair": "2B vs XL+pl",
+   "a": "2B",
+   "b": "XL+pl",
+   "diff": 0.0172,
+   "ci95": [
+    -0.0462,
+    0.0822
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "WhisperX",
+   "vad": true,
+   "metric": "recall",
+   "pair": "2B+pl vs XL",
+   "a": "2B+pl",
+   "b": "XL",
+   "diff": 0.0897,
+   "ci95": [
+    0.0322,
+    0.1475
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "WhisperX",
+   "vad": true,
+   "metric": "recall",
+   "pair": "2B+pl vs XL+pl",
+   "a": "2B+pl",
+   "b": "XL+pl",
+   "diff": 0.0738,
+   "ci95": [
+    0.0108,
+    0.1362
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "WhisperX",
+   "vad": true,
+   "metric": "recall",
+   "pair": "XL vs XL+pl",
+   "a": "XL",
+   "b": "XL+pl",
+   "diff": -0.016,
+   "ci95": [
+    -0.0861,
+    0.0525
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "fw VAD off",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B vs 2B+pl",
+   "a": "2B",
+   "b": "2B+pl",
+   "diff": -0.1246,
+   "ci95": [
+    -0.2331,
+    -0.0213
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "fw VAD off",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B vs XL",
+   "a": "2B",
+   "b": "XL",
+   "diff": -0.0935,
+   "ci95": [
+    -0.2049,
+    0.0176
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "fw VAD off",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B vs XL+pl",
+   "a": "2B",
+   "b": "XL+pl",
+   "diff": -0.0882,
+   "ci95": [
+    -0.2047,
+    0.0258
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "fw VAD off",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B+pl vs XL",
+   "a": "2B+pl",
+   "b": "XL",
+   "diff": 0.0311,
+   "ci95": [
+    -0.0526,
+    0.1177
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "fw VAD off",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B+pl vs XL+pl",
+   "a": "2B+pl",
+   "b": "XL+pl",
+   "diff": 0.0364,
+   "ci95": [
+    -0.0716,
+    0.1459
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "fw VAD off",
+   "vad": false,
+   "metric": "wer",
+   "pair": "XL vs XL+pl",
+   "a": "XL",
+   "b": "XL+pl",
+   "diff": 0.0053,
+   "ci95": [
+    -0.1029,
+    0.1164
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "fw off + check",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B vs 2B+pl",
+   "a": "2B",
+   "b": "2B+pl",
+   "diff": -0.1209,
+   "ci95": [
+    -0.2304,
+    -0.017
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "fw off + check",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B vs XL",
+   "a": "2B",
+   "b": "XL",
+   "diff": -0.1117,
+   "ci95": [
+    -0.2183,
+    -0.0073
+   ],
+   "verdict": "XL"
+  },
+  {
+   "pipe": "fw off + check",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B vs XL+pl",
+   "a": "2B",
+   "b": "XL+pl",
+   "diff": -0.1169,
+   "ci95": [
+    -0.2267,
+    -0.0113
+   ],
+   "verdict": "XL+pl"
+  },
+  {
+   "pipe": "fw off + check",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B+pl vs XL",
+   "a": "2B+pl",
+   "b": "XL",
+   "diff": 0.0092,
+   "ci95": [
+    -0.0691,
+    0.091
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "fw off + check",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B+pl vs XL+pl",
+   "a": "2B+pl",
+   "b": "XL+pl",
+   "diff": 0.0039,
+   "ci95": [
+    -0.0992,
+    0.1092
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "fw off + check",
+   "vad": false,
+   "metric": "wer",
+   "pair": "XL vs XL+pl",
+   "a": "XL",
+   "b": "XL+pl",
+   "diff": -0.0052,
+   "ci95": [
+    -0.1034,
+    0.0941
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "all vocals",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B vs 2B+pl",
+   "a": "2B",
+   "b": "2B+pl",
+   "diff": -0.0639,
+   "ci95": [
+    -0.1444,
+    0.025
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "all vocals",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B vs XL",
+   "a": "2B",
+   "b": "XL",
+   "diff": -0.0634,
+   "ci95": [
+    -0.1526,
+    0.0228
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "all vocals",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B vs XL+pl",
+   "a": "2B",
+   "b": "XL+pl",
+   "diff": -0.0903,
+   "ci95": [
+    -0.1716,
+    -0.0041
+   ],
+   "verdict": "XL+pl"
+  },
+  {
+   "pipe": "all vocals",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B+pl vs XL",
+   "a": "2B+pl",
+   "b": "XL",
+   "diff": 0.0005,
+   "ci95": [
+    -0.1,
+    0.0939
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "all vocals",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B+pl vs XL+pl",
+   "a": "2B+pl",
+   "b": "XL+pl",
+   "diff": -0.0263,
+   "ci95": [
+    -0.1117,
+    0.0613
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "all vocals",
+   "vad": false,
+   "metric": "wer",
+   "pair": "XL vs XL+pl",
+   "a": "XL",
+   "b": "XL+pl",
+   "diff": -0.0268,
+   "ci95": [
+    -0.1175,
+    0.067
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "openai-whisper",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B vs 2B+pl",
+   "a": "2B",
+   "b": "2B+pl",
+   "diff": -0.111,
+   "ci95": [
+    -0.1878,
+    -0.0336
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "openai-whisper",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B vs XL",
+   "a": "2B",
+   "b": "XL",
+   "diff": -0.0554,
+   "ci95": [
+    -0.1278,
+    0.0163
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "openai-whisper",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B vs XL+pl",
+   "a": "2B",
+   "b": "XL+pl",
+   "diff": -0.0501,
+   "ci95": [
+    -0.1532,
+    0.0551
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "openai-whisper",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B+pl vs XL",
+   "a": "2B+pl",
+   "b": "XL",
+   "diff": 0.0557,
+   "ci95": [
+    -0.0222,
+    0.1346
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "openai-whisper",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B+pl vs XL+pl",
+   "a": "2B+pl",
+   "b": "XL+pl",
+   "diff": 0.0609,
+   "ci95": [
+    -0.0197,
+    0.1458
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "openai-whisper",
+   "vad": false,
+   "metric": "wer",
+   "pair": "XL vs XL+pl",
+   "a": "XL",
+   "b": "XL+pl",
+   "diff": 0.0052,
+   "ci95": [
+    -0.084,
+    0.0958
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "transformers",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B vs 2B+pl",
+   "a": "2B",
+   "b": "2B+pl",
+   "diff": -0.2212,
+   "ci95": [
+    -0.3281,
+    -0.1121
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "transformers",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B vs XL",
+   "a": "2B",
+   "b": "XL",
+   "diff": -0.0943,
+   "ci95": [
+    -0.2184,
+    0.0284
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "transformers",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B vs XL+pl",
+   "a": "2B",
+   "b": "XL+pl",
+   "diff": -0.2126,
+   "ci95": [
+    -0.3163,
+    -0.1157
+   ],
+   "verdict": "XL+pl"
+  },
+  {
+   "pipe": "transformers",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B+pl vs XL",
+   "a": "2B+pl",
+   "b": "XL",
+   "diff": 0.127,
+   "ci95": [
+    0.0097,
+    0.2457
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "transformers",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B+pl vs XL+pl",
+   "a": "2B+pl",
+   "b": "XL+pl",
+   "diff": 0.0086,
+   "ci95": [
+    -0.0753,
+    0.0943
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "transformers",
+   "vad": false,
+   "metric": "wer",
+   "pair": "XL vs XL+pl",
+   "a": "XL",
+   "b": "XL+pl",
+   "diff": -0.1183,
+   "ci95": [
+    -0.232,
+    -0.0051
+   ],
+   "verdict": "XL+pl"
+  },
+  {
+   "pipe": "Parakeet",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B vs 2B+pl",
+   "a": "2B",
+   "b": "2B+pl",
+   "diff": -0.1583,
+   "ci95": [
+    -0.2046,
+    -0.1087
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "Parakeet",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B vs XL",
+   "a": "2B",
+   "b": "XL",
+   "diff": -0.104,
+   "ci95": [
+    -0.143,
+    -0.0628
+   ],
+   "verdict": "XL"
+  },
+  {
+   "pipe": "Parakeet",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B vs XL+pl",
+   "a": "2B",
+   "b": "XL+pl",
+   "diff": -0.1473,
+   "ci95": [
+    -0.2068,
+    -0.0792
+   ],
+   "verdict": "XL+pl"
+  },
+  {
+   "pipe": "Parakeet",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B+pl vs XL",
+   "a": "2B+pl",
+   "b": "XL",
+   "diff": 0.0542,
+   "ci95": [
+    0.016,
+    0.0898
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "Parakeet",
+   "vad": false,
+   "metric": "wer",
+   "pair": "2B+pl vs XL+pl",
+   "a": "2B+pl",
+   "b": "XL+pl",
+   "diff": 0.011,
+   "ci95": [
+    -0.0359,
+    0.0647
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "Parakeet",
+   "vad": false,
+   "metric": "wer",
+   "pair": "XL vs XL+pl",
+   "a": "XL",
+   "b": "XL+pl",
+   "diff": -0.0432,
+   "ci95": [
+    -0.098,
+    0.0202
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "fw VAD 0.5",
+   "vad": true,
+   "metric": "wer",
+   "pair": "2B vs 2B+pl",
+   "a": "2B",
+   "b": "2B+pl",
+   "diff": -0.0752,
+   "ci95": [
+    -0.1308,
+    -0.0195
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "fw VAD 0.5",
+   "vad": true,
+   "metric": "wer",
+   "pair": "2B vs XL",
+   "a": "2B",
+   "b": "XL",
+   "diff": 0.1774,
+   "ci95": [
+    0.1283,
+    0.2278
+   ],
+   "verdict": "2B"
+  },
+  {
+   "pipe": "fw VAD 0.5",
+   "vad": true,
+   "metric": "wer",
+   "pair": "2B vs XL+pl",
+   "a": "2B",
+   "b": "XL+pl",
+   "diff": 0.1464,
+   "ci95": [
+    0.0847,
+    0.2074
+   ],
+   "verdict": "2B"
+  },
+  {
+   "pipe": "fw VAD 0.5",
+   "vad": true,
+   "metric": "wer",
+   "pair": "2B+pl vs XL",
+   "a": "2B+pl",
+   "b": "XL",
+   "diff": 0.2526,
+   "ci95": [
+    0.1928,
+    0.3138
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "fw VAD 0.5",
+   "vad": true,
+   "metric": "wer",
+   "pair": "2B+pl vs XL+pl",
+   "a": "2B+pl",
+   "b": "XL+pl",
+   "diff": 0.2216,
+   "ci95": [
+    0.1692,
+    0.2735
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "fw VAD 0.5",
+   "vad": true,
+   "metric": "wer",
+   "pair": "XL vs XL+pl",
+   "a": "XL",
+   "b": "XL+pl",
+   "diff": -0.0309,
+   "ci95": [
+    -0.0794,
+    0.0104
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "fw VAD 0.3",
+   "vad": true,
+   "metric": "wer",
+   "pair": "2B vs 2B+pl",
+   "a": "2B",
+   "b": "2B+pl",
+   "diff": -0.1055,
+   "ci95": [
+    -0.1626,
+    -0.0468
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "fw VAD 0.3",
+   "vad": true,
+   "metric": "wer",
+   "pair": "2B vs XL",
+   "a": "2B",
+   "b": "XL",
+   "diff": 0.1604,
+   "ci95": [
+    0.1018,
+    0.2211
+   ],
+   "verdict": "2B"
+  },
+  {
+   "pipe": "fw VAD 0.3",
+   "vad": true,
+   "metric": "wer",
+   "pair": "2B vs XL+pl",
+   "a": "2B",
+   "b": "XL+pl",
+   "diff": 0.1213,
+   "ci95": [
+    0.0503,
+    0.1926
+   ],
+   "verdict": "2B"
+  },
+  {
+   "pipe": "fw VAD 0.3",
+   "vad": true,
+   "metric": "wer",
+   "pair": "2B+pl vs XL",
+   "a": "2B+pl",
+   "b": "XL",
+   "diff": 0.2659,
+   "ci95": [
+    0.2025,
+    0.329
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "fw VAD 0.3",
+   "vad": true,
+   "metric": "wer",
+   "pair": "2B+pl vs XL+pl",
+   "a": "2B+pl",
+   "b": "XL+pl",
+   "diff": 0.2268,
+   "ci95": [
+    0.1661,
+    0.2868
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "fw VAD 0.3",
+   "vad": true,
+   "metric": "wer",
+   "pair": "XL vs XL+pl",
+   "a": "XL",
+   "b": "XL+pl",
+   "diff": -0.0391,
+   "ci95": [
+    -0.0971,
+    0.0155
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "fw VAD 0.1",
+   "vad": true,
+   "metric": "wer",
+   "pair": "2B vs 2B+pl",
+   "a": "2B",
+   "b": "2B+pl",
+   "diff": -0.1384,
+   "ci95": [
+    -0.1981,
+    -0.0803
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "fw VAD 0.1",
+   "vad": true,
+   "metric": "wer",
+   "pair": "2B vs XL",
+   "a": "2B",
+   "b": "XL",
+   "diff": 0.0181,
+   "ci95": [
+    -0.047,
+    0.0843
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "fw VAD 0.1",
+   "vad": true,
+   "metric": "wer",
+   "pair": "2B vs XL+pl",
+   "a": "2B",
+   "b": "XL+pl",
+   "diff": 0.0329,
+   "ci95": [
+    -0.0468,
+    0.1133
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "fw VAD 0.1",
+   "vad": true,
+   "metric": "wer",
+   "pair": "2B+pl vs XL",
+   "a": "2B+pl",
+   "b": "XL",
+   "diff": 0.1565,
+   "ci95": [
+    0.0831,
+    0.2302
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "fw VAD 0.1",
+   "vad": true,
+   "metric": "wer",
+   "pair": "2B+pl vs XL+pl",
+   "a": "2B+pl",
+   "b": "XL+pl",
+   "diff": 0.1713,
+   "ci95": [
+    0.0966,
+    0.2472
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "fw VAD 0.1",
+   "vad": true,
+   "metric": "wer",
+   "pair": "XL vs XL+pl",
+   "a": "XL",
+   "b": "XL+pl",
+   "diff": 0.0148,
+   "ci95": [
+    -0.0591,
+    0.0909
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "WhisperX",
+   "vad": true,
+   "metric": "wer",
+   "pair": "2B vs 2B+pl",
+   "a": "2B",
+   "b": "2B+pl",
+   "diff": -0.0922,
+   "ci95": [
+    -0.1426,
+    -0.0394
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "WhisperX",
+   "vad": true,
+   "metric": "wer",
+   "pair": "2B vs XL",
+   "a": "2B",
+   "b": "XL",
+   "diff": 0.0191,
+   "ci95": [
+    -0.0367,
+    0.079
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "WhisperX",
+   "vad": true,
+   "metric": "wer",
+   "pair": "2B vs XL+pl",
+   "a": "2B",
+   "b": "XL+pl",
+   "diff": -0.0322,
+   "ci95": [
+    -0.0974,
+    0.0321
+   ],
+   "verdict": "n.s."
+  },
+  {
+   "pipe": "WhisperX",
+   "vad": true,
+   "metric": "wer",
+   "pair": "2B+pl vs XL",
+   "a": "2B+pl",
+   "b": "XL",
+   "diff": 0.1113,
+   "ci95": [
+    0.0578,
+    0.1662
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "WhisperX",
+   "vad": true,
+   "metric": "wer",
+   "pair": "2B+pl vs XL+pl",
+   "a": "2B+pl",
+   "b": "XL+pl",
+   "diff": 0.0601,
+   "ci95": [
+    0.0029,
+    0.1182
+   ],
+   "verdict": "2B+pl"
+  },
+  {
+   "pipe": "WhisperX",
+   "vad": true,
+   "metric": "wer",
+   "pair": "XL vs XL+pl",
+   "a": "XL",
+   "b": "XL+pl",
+   "diff": -0.0513,
+   "ci95": [
+    -0.1169,
+    0.0147
+   ],
+   "verdict": "n.s."
+  }
+ ]
+}

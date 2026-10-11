@@ -1,0 +1,961 @@
+song_id,exp,arm,generator,model,planner,seed,crop_sec,gen_params
+song001,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song001,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song002,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song002,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song003,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song003,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song004,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song004,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song005,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song005,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song006,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song006,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song007,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song007,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song008,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song008,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song009,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song009,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song010,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song010,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song011,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song011,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song012,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song012,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song013,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song013,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song014,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song014,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song015,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song015,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song016,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song016,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song017,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song017,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song018,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song018,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song019,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song019,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song020,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song020,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song021,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song021,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song022,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song022,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song023,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song023,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song024,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song024,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song025,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song025,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song026,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song026,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song027,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song027,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song028,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song028,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song029,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song029,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song030,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song030,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song031,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song031,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song032,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song032,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song033,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song033,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song034,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song034,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song035,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song035,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song036,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song036,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song037,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song037,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song038,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song038,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song039,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song039,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song040,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song040,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song041,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song041,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song042,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song042,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song043,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song043,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song044,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song044,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song045,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song045,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song046,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song046,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song047,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song047,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song048,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song048,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song001,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song001,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song002,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song002,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song003,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song003,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song004,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song004,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song005,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song005,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song006,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song006,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song007,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song007,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song008,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song008,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song009,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song009,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song010,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song010,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song011,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song011,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song012,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song012,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song013,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song013,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song014,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song014,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song015,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song015,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song016,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song016,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song017,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song017,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song018,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song018,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song019,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song019,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song020,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song020,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song021,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song021,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song022,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song022,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song023,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song023,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song024,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song024,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song025,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song025,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song026,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song026,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song027,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song027,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song028,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song028,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song029,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song029,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song030,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song030,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song031,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song031,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song032,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song032,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song033,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song033,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song034,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song034,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song035,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song035,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song036,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song036,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song037,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song037,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song038,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song038,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song039,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song039,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song040,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song040,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song041,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song041,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song042,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song042,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song043,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song043,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song044,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song044,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song045,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song045,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song046,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song046,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song047,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song047,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song048,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song048,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song001,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song001,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song001,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song001,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song002,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song002,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song002,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song002,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song003,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song003,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song003,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song003,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song004,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song004,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song004,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song004,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song005,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song005,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song005,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song005,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song006,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song006,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song006,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song006,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song007,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song007,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song007,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song007,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song008,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song008,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song008,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song008,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song009,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song009,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song009,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song009,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song010,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song010,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song010,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song010,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song011,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song011,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song011,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song011,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song012,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song012,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song012,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song012,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song013,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song013,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song013,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song013,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song014,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song014,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song014,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song014,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song015,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song015,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song015,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song015,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song016,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song016,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song016,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song016,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song017,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song017,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song017,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song017,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song018,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song018,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song018,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song018,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song019,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song019,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song019,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song019,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song020,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song020,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song020,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song020,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song021,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song021,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song021,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song021,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song022,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song022,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song022,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song022,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song023,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song023,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song023,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song023,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song024,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song024,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song024,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song024,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song025,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song025,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song025,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song025,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song026,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song026,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song026,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song026,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song027,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song027,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song027,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song027,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song028,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song028,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song028,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song028,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song029,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song029,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song029,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song029,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song030,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song030,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song030,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song030,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song031,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song031,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song031,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song031,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song032,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song032,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song032,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song032,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song033,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song033,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song033,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song033,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song034,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song034,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song034,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song034,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song035,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song035,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song035,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song035,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song036,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song036,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song036,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song036,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song037,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song037,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song037,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song037,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song038,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song038,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song038,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song038,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song039,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song039,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song039,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song039,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song040,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song040,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song040,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song040,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song041,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song041,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song041,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song041,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song042,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song042,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song042,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song042,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song043,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song043,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song043,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song043,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song044,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song044,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song044,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song044,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song045,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song045,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song045,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song045,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song046,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song046,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song046,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song046,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song047,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song047,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song047,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song047,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song048,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song048,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song048,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song048,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,4,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
+song001,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song001,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song001,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song001,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song002,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song002,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song002,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song002,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song003,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song003,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song003,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song003,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song004,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song004,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song004,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song004,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song005,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song005,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song005,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song005,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song006,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song006,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song006,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song006,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song007,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song007,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song007,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song007,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song008,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song008,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song008,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song008,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song009,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song009,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song009,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song009,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song010,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song010,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song010,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song010,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song011,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song011,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song011,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song011,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song012,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song012,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song012,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song012,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song013,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song013,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song013,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song013,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song014,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song014,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song014,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song014,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song015,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song015,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song015,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song015,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song016,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song016,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song016,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song016,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song017,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song017,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song017,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song017,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song018,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song018,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song018,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song018,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song019,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song019,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song019,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song019,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song020,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song020,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song020,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song020,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song021,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song021,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song021,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song021,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song022,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song022,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song022,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song022,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song023,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song023,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song023,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song023,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song024,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song024,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song024,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song024,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song025,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song025,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song025,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song025,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song026,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song026,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song026,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song026,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song027,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song027,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song027,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song027,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song028,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song028,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song028,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song028,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song029,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song029,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song029,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song029,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song030,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song030,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song030,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song030,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song031,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song031,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song031,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song031,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song032,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song032,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song032,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song032,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song033,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song033,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song033,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song033,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song034,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song034,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song034,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song034,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song035,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song035,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song035,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song035,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song036,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song036,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song036,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song036,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song037,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song037,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song037,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song037,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song038,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song038,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song038,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song038,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song039,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song039,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song039,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song039,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song040,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song040,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song040,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song040,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song041,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song041,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song041,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song041,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song042,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song042,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song042,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song042,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song043,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song043,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song043,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song043,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song044,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song044,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song044,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song044,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song045,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song045,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song045,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song045,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song046,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song046,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song046,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song046,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song047,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song047,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song047,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song047,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song048,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,1,120,topk=50; temperature=1.0; cfg_scale=1.5
+song048,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,2,120,topk=50; temperature=1.0; cfg_scale=1.5
+song048,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,3,120,topk=50; temperature=1.0; cfg_scale=1.5
+song048,vad48_heart,H,HeartMuLa,HeartMuLa-oss-3B,n/a,4,120,topk=50; temperature=1.0; cfg_scale=1.5
+song001,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song001,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song001,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song001,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song002,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song002,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song002,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song002,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song003,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song003,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song003,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song003,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song004,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song004,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song004,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song004,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song005,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song005,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song005,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song005,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song006,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song006,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song006,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song006,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song007,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song007,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song007,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song007,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song008,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song008,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song008,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song008,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song009,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song009,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song009,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song009,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song010,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song010,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song010,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song010,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song011,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song011,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song011,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song011,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song012,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song012,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song012,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song012,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song013,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song013,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song013,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song013,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song014,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song014,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song014,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song014,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song015,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song015,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song015,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song015,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song016,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song016,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song016,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song016,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song017,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song017,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song017,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song017,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song018,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song018,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song018,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song018,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song019,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song019,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song019,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song019,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song020,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song020,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song020,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song020,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song021,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song021,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song021,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song021,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song022,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song022,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song022,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song022,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song023,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song023,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song023,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song023,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song024,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song024,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song024,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song024,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song025,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song025,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song025,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song025,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song026,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song026,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song026,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song026,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song027,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song027,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song027,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song027,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song028,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song028,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song028,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song028,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song029,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song029,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song029,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song029,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song030,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song030,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song030,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song030,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song031,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song031,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song031,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song031,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song032,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song032,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song032,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song032,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song033,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song033,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song033,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song033,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song034,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song034,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song034,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song034,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song035,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song035,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song035,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song035,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song036,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song036,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song036,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song036,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song037,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song037,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song037,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song037,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song038,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song038,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song038,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song038,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song039,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song039,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song039,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song039,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song040,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song040,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song040,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song040,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song041,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song041,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song041,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song041,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song042,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song042,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song042,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song042,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song043,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song043,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song043,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song043,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song044,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song044,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song044,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song044,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song045,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song045,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song045,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song045,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song046,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song046,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song046,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song046,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song047,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song047,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song047,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song047,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song048,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,1,120,generate_type=mixed; low-memory mode
+song048,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,2,120,generate_type=mixed; low-memory mode
+song048,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed; low-memory mode
+song048,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
+song001,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song001,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song002,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song002,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song003,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song003,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song004,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song004,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song005,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song005,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song006,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song006,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song007,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song007,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song008,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song008,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song009,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song009,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song010,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song010,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song011,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song011,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song012,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song012,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song013,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song013,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song014,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song014,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song015,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song015,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song016,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song016,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song017,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song017,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song018,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song018,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song019,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song019,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song020,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song020,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song021,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song021,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song022,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song022,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song023,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song023,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song024,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song024,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song025,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song025,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song026,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song026,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song027,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song027,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song028,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song028,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song029,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song029,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song030,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song030,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song031,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song031,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song032,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song032,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song033,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song033,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song034,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song034,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song035,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song035,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song036,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song036,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song037,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song037,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song038,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song038,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song039,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song039,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song040,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song040,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song041,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song041,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song042,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song042,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song043,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song043,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song044,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song044,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song045,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song045,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song046,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song046,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song047,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song047,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song048,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song048,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song001,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song001,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song002,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song002,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song003,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song003,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song004,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song004,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song005,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song005,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song006,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song006,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song007,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song007,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song008,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song008,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song009,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song009,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song010,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song010,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song011,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song011,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song012,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song012,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song013,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song013,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song014,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song014,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song015,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song015,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song016,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song016,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song017,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song017,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song018,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song018,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song019,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song019,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song020,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song020,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song021,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song021,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song022,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song022,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song023,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song023,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song024,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song024,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song025,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song025,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song026,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song026,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song027,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song027,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song028,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song028,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song029,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song029,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song030,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song030,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song031,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song031,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song032,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song032,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song033,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song033,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song034,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song034,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song035,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song035,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song036,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song036,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song037,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song037,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song038,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song038,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song039,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song039,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song040,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song040,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song041,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song041,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song042,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song042,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song043,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song043,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song044,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song044,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song045,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song045,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song046,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song046,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song047,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song047,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song048,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song048,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600

@@ -1,0 +1,39 @@
+{
+ "n_songs": 20,
+ "n_words": 5693,
+ "cond": {
+  "mix_default": {
+   "words_dropped_pooled": 0.7019,
+   "median_song_frac_dropped": 0.98005,
+   "songs_over_20pct": 18,
+   "median_kept_sec": 2.0,
+   "median_dur": 220.35,
+   "spearman_dropped_vs_recall_loss": [
+    0.487,
+    0.02936487718162395
+   ],
+   "n_corr": 20
+  },
+  "mix_batched": {
+   "words_dropped_pooled": 0.7105,
+   "median_song_frac_dropped": 0.98215,
+   "songs_over_20pct": 18,
+   "median_kept_sec": 1.9,
+   "median_dur": 220.35
+  },
+  "mix_thr015": {
+   "words_dropped_pooled": 0.4435,
+   "median_song_frac_dropped": 0.63755,
+   "songs_over_20pct": 17,
+   "median_kept_sec": 56.25,
+   "median_dur": 220.35
+  },
+  "voc_default": {
+   "words_dropped_pooled": 0.1992,
+   "median_song_frac_dropped": 0.17425000000000002,
+   "songs_over_20pct": 6,
+   "median_kept_sec": 123.1,
+   "median_dur": 218.35
+  }
+ }
+}

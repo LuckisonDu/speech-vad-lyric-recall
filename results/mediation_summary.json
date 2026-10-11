@@ -1,0 +1,135 @@
+{
+ "model": "recall_on ~ 1 + off + k + off*k (no system terms), fit on 768 songs",
+ "beta": [
+  0.0217,
+  0.0874,
+  0.349,
+  0.9492
+ ],
+ "r2": 0.704,
+ "r2_with_system_dummies": 0.73,
+ "r2_system_and_off_without_kept": 0.368,
+ "residual_system_coef_vs_2B": {
+  "2B+pl": -0.0404,
+  "XL": -0.115,
+  "XL+pl": -0.0926,
+  "HeartMuLa": 0.0002,
+  "LeVo": 0.0485
+ },
+ "pairs": {
+  "XL − 2B": {
+   "observed_on_gap": -0.2,
+   "coverage_part": -0.138,
+   "coverage_ci95": [
+    -0.177,
+    -0.1
+   ],
+   "intrinsic_part": 0.034,
+   "intrinsic_ci95": [
+    0.012,
+    0.056
+   ],
+   "residual": -0.095,
+   "residual_ci95": [
+    -0.135,
+    -0.054
+   ],
+   "coverage_share_of_gap": 0.69
+  },
+  "XL+pl − 2B": {
+   "observed_on_gap": -0.168,
+   "coverage_part": -0.128,
+   "coverage_ci95": [
+    -0.171,
+    -0.093
+   ],
+   "intrinsic_part": 0.034,
+   "intrinsic_ci95": [
+    0.006,
+    0.064
+   ],
+   "residual": -0.075,
+   "residual_ci95": [
+    -0.115,
+    -0.032
+   ],
+   "coverage_share_of_gap": 0.76
+  },
+  "XL − 2B+pl": {
+   "observed_on_gap": -0.258,
+   "coverage_part": -0.174,
+   "coverage_ci95": [
+    -0.223,
+    -0.128
+   ],
+   "intrinsic_part": -0.03,
+   "intrinsic_ci95": [
+    -0.055,
+    -0.011
+   ],
+   "residual": -0.053,
+   "residual_ci95": [
+    -0.09,
+    -0.019
+   ],
+   "coverage_share_of_gap": 0.68
+  },
+  "XL+pl − 2B+pl": {
+   "observed_on_gap": -0.226,
+   "coverage_part": -0.168,
+   "coverage_ci95": [
+    -0.209,
+    -0.133
+   ],
+   "intrinsic_part": -0.025,
+   "intrinsic_ci95": [
+    -0.051,
+    -0.004
+   ],
+   "residual": -0.032,
+   "residual_ci95": [
+    -0.056,
+    -0.007
+   ],
+   "coverage_share_of_gap": 0.75
+  },
+  "LeVo − HeartMuLa": {
+   "observed_on_gap": 0.06,
+   "coverage_part": 0.054,
+   "coverage_ci95": [
+    0.007,
+    0.1
+   ],
+   "intrinsic_part": -0.033,
+   "intrinsic_ci95": [
+    -0.051,
+    -0.018
+   ],
+   "residual": 0.04,
+   "residual_ci95": [
+    0.008,
+    0.069
+   ],
+   "coverage_share_of_gap": 0.89
+  },
+  "LeVo − 2B+pl": {
+   "observed_on_gap": 0.191,
+   "coverage_part": 0.138,
+   "coverage_ci95": [
+    0.088,
+    0.195
+   ],
+   "intrinsic_part": -0.016,
+   "intrinsic_ci95": [
+    -0.036,
+    0.001
+   ],
+   "residual": 0.069,
+   "residual_ci95": [
+    0.027,
+    0.11
+   ],
+   "coverage_share_of_gap": 0.72
+  }
+ }
+}

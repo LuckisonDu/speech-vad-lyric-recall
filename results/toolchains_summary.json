@@ -1,0 +1,253 @@
+{
+ "faster-whisper VAD off": {
+  "n": 384,
+  "mean": {
+   "2B·B": 0.6501,
+   "2B·C": 0.8139,
+   "XL·B": 0.7301,
+   "XL·C": 0.7456
+  },
+  "ranking": [
+   "2B·C",
+   "XL·C",
+   "XL·B",
+   "2B·B"
+  ],
+  "below_0.3": {
+   "2B·B": 6,
+   "2B·C": 5,
+   "XL·B": 14,
+   "XL·C": 13
+  },
+  "zero_words": 5,
+  "XL·B−2B·B": {
+   "mean": 0.08,
+   "ci95": [
+    0.0164,
+    0.1411
+   ]
+  }
+ },
+ "faster-whisper VAD on (threshold 0.5)": {
+  "n": 384,
+  "mean": {
+   "2B·B": 0.311,
+   "2B·C": 0.3688,
+   "XL·B": 0.1111,
+   "XL·C": 0.1427
+  },
+  "ranking": [
+   "2B·C",
+   "2B·B",
+   "XL·C",
+   "XL·B"
+  ],
+  "below_0.3": {
+   "2B·B": 49,
+   "2B·C": 45,
+   "XL·B": 85,
+   "XL·C": 78
+  },
+  "zero_words": 78,
+  "XL·B−2B·B": {
+   "mean": -0.1999,
+   "ci95": [
+    -0.2572,
+    -0.145
+   ]
+  }
+ },
+ "faster-whisper VAD on (threshold 0.3)": {
+  "n": 384,
+  "mean": {
+   "2B·B": 0.4095,
+   "2B·C": 0.4945,
+   "XL·B": 0.2245,
+   "XL·C": 0.2617
+  },
+  "ranking": [
+   "2B·C",
+   "2B·B",
+   "XL·C",
+   "XL·B"
+  ],
+  "below_0.3": {
+   "2B·B": 38,
+   "2B·C": 30,
+   "XL·B": 69,
+   "XL·C": 62
+  },
+  "zero_words": 37,
+  "XL·B−2B·B": {
+   "mean": -0.185,
+   "ci95": [
+    -0.2516,
+    -0.1195
+   ]
+  }
+ },
+ "faster-whisper VAD on (threshold 0.1)": {
+  "n": 384,
+  "mean": {
+   "2B·B": 0.5601,
+   "2B·C": 0.6937,
+   "XL·B": 0.5484,
+   "XL·C": 0.4812
+  },
+  "ranking": [
+   "2B·C",
+   "2B·B",
+   "XL·B",
+   "XL·C"
+  ],
+  "below_0.3": {
+   "2B·B": 16,
+   "2B·C": 14,
+   "XL·B": 19,
+   "XL·C": 35
+  },
+  "zero_words": 13,
+  "XL·B−2B·B": {
+   "mean": -0.0117,
+   "ci95": [
+    -0.0906,
+    0.0645
+   ]
+  }
+ },
+ "openai-whisper default": {
+  "n": 384,
+  "mean": {
+   "2B·B": 0.6523,
+   "2B·C": 0.8084,
+   "XL·B": 0.732,
+   "XL·C": 0.7265
+  },
+  "ranking": [
+   "2B·C",
+   "XL·B",
+   "XL·C",
+   "2B·B"
+  ],
+  "below_0.3": {
+   "2B·B": 5,
+   "2B·C": 5,
+   "XL·B": 14,
+   "XL·C": 15
+  },
+  "zero_words": 5,
+  "XL·B−2B·B": {
+   "mean": 0.0797,
+   "ci95": [
+    0.018,
+    0.1378
+   ]
+  }
+ },
+ "WhisperX default (VAD always on)": {
+  "n": 384,
+  "mean": {
+   "2B·B": 0.4679,
+   "2B·C": 0.5244,
+   "XL·B": 0.4347,
+   "XL·C": 0.4507
+  },
+  "ranking": [
+   "2B·C",
+   "2B·B",
+   "XL·C",
+   "XL·B"
+  ],
+  "below_0.3": {
+   "2B·B": 31,
+   "2B·C": 27,
+   "XL·B": 36,
+   "XL·C": 33
+  },
+  "zero_words": 2,
+  "XL·B−2B·B": {
+   "mean": -0.0332,
+   "ci95": [
+    -0.0921,
+    0.0223
+   ]
+  }
+ },
+ "transformers pipeline": {
+  "n": 384,
+  "mean": {
+   "2B·B": 0.6131,
+   "2B·C": 0.7165,
+   "XL·B": 0.6706,
+   "XL·C": 0.7142
+  },
+  "ranking": [
+   "2B·C",
+   "XL·C",
+   "XL·B",
+   "2B·B"
+  ],
+  "below_0.3": {
+   "2B·B": 6,
+   "2B·C": 5,
+   "XL·B": 10,
+   "XL·C": 5
+  },
+  "zero_words": 0,
+  "XL·B−2B·B": {
+   "mean": 0.0575,
+   "ci95": [
+    -0.0043,
+    0.1151
+   ]
+  }
+ },
+ "Parakeet-TDT (non-Whisper)": {
+  "n": 384,
+  "mean": {
+   "2B·B": 0.6864,
+   "2B·C": 0.8272,
+   "XL·B": 0.8146,
+   "XL·C": 0.8203
+  },
+  "ranking": [
+   "2B·C",
+   "XL·C",
+   "XL·B",
+   "2B·B"
+  ],
+  "below_0.3": {
+   "2B·B": 0,
+   "2B·C": 1,
+   "XL·B": 2,
+   "XL·C": 3
+  },
+  "zero_words": 2,
+  "XL·B−2B·B": {
+   "mean": 0.1283,
+   "ci95": [
+    0.0863,
+    0.1661
+   ]
+  }
+ },
+ "vocal_ratio_db_median": {
+  "2B·B": {
+   "whole": -7.17,
+   "active": -5.56
+  },
+  "2B·C": {
+   "whole": -7.03,
+   "active": -5.5
+  },
+  "XL·B": {
+   "whole": -7.64,
+   "active": -6.22
+  },
+  "XL·C": {
+   "whole": -8.49,
+   "active": -7.13
+  }
+ },
+ "spearman_vocalratio_vs_keptsec": 0.5336
+}

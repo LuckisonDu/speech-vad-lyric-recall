@@ -1,0 +1,538 @@
+{
+ "n": {
+  "vocals_vad": 960,
+  "mix_off": 960,
+  "mix_on": 960,
+  "energy": 960
+ },
+ "systems": {
+  "2B": {
+   "n": 96,
+   "kept_median": 80.465,
+   "recall_energy": 0.5726572916666667,
+   "empty_or_low": 8,
+   "recall_mix_off": 0.6501458333333333,
+   "recall_mix_on": 0.311,
+   "recall_vocals_vad": 0.5926739583333333
+  },
+  "2B+P": {
+   "n": 96,
+   "kept_median": 85.28999999999999,
+   "recall_energy": 0.7105927083333334,
+   "empty_or_low": 8,
+   "recall_mix_off": 0.813865625,
+   "recall_mix_on": 0.36878645833333334,
+   "recall_vocals_vad": 0.708303125
+  },
+  "DiffRhythm": {
+   "n": 192,
+   "kept_median": 104.515,
+   "recall_energy": 0.8158729166666667,
+   "empty_or_low": 7,
+   "recall_mix_off": 0.8417416666666666,
+   "recall_mix_on": 0.384315625,
+   "recall_vocals_vad": 0.6658833333333334
+  },
+  "HeartMuLa": {
+   "n": 192,
+   "kept_median": 109.61500000000001,
+   "recall_energy": 0.8471479166666667,
+   "empty_or_low": 1,
+   "recall_mix_off": 0.8804296875000001,
+   "recall_mix_on": 0.4972869791666666,
+   "recall_vocals_vad": 0.7961031249999998
+  },
+  "LeVo": {
+   "n": 192,
+   "kept_median": 83.60499999999999,
+   "recall_energy": 0.7549880208333333,
+   "empty_or_low": 5,
+   "recall_mix_off": 0.8068067708333334,
+   "recall_mix_on": 0.5574640624999999,
+   "recall_vocals_vad": 0.7749265625
+  },
+  "XL": {
+   "n": 96,
+   "kept_median": 97.78999999999999,
+   "recall_energy": 0.6956822916666666,
+   "empty_or_low": 12,
+   "recall_mix_off": 0.7301406250000001,
+   "recall_mix_on": 0.11113541666666667,
+   "recall_vocals_vad": 0.6743552083333334
+  },
+  "XL+P": {
+   "n": 96,
+   "kept_median": 88.66499999999999,
+   "recall_energy": 0.7170989583333333,
+   "empty_or_low": 8,
+   "recall_mix_off": 0.7455541666666666,
+   "recall_mix_on": 0.1427104166666667,
+   "recall_vocals_vad": 0.65165
+  }
+ },
+ "pairs": {
+  "XL - 2B": {
+   "mix_off": {
+    "d": 0.08,
+    "ci": [
+     0.016,
+     0.14
+    ],
+    "n_lyrics": 48,
+    "sig": "+"
+   },
+   "mix_on": {
+    "d": -0.2,
+    "ci": [
+     -0.257,
+     -0.144
+    ],
+    "n_lyrics": 48,
+    "sig": "-"
+   },
+   "vocals_vad": {
+    "d": 0.082,
+    "ci": [
+     0.031,
+     0.128
+    ],
+    "n_lyrics": 48,
+    "sig": "+"
+   },
+   "energy": {
+    "d": 0.123,
+    "ci": [
+     0.052,
+     0.19
+    ],
+    "n_lyrics": 48,
+    "sig": "+"
+   }
+  },
+  "XL+P - 2B": {
+   "mix_off": {
+    "d": 0.095,
+    "ci": [
+     0.02,
+     0.163
+    ],
+    "n_lyrics": 48,
+    "sig": "+"
+   },
+   "mix_on": {
+    "d": -0.168,
+    "ci": [
+     -0.229,
+     -0.112
+    ],
+    "n_lyrics": 48,
+    "sig": "-"
+   },
+   "vocals_vad": {
+    "d": 0.059,
+    "ci": [
+     -0.01,
+     0.122
+    ],
+    "n_lyrics": 48,
+    "sig": "0"
+   },
+   "energy": {
+    "d": 0.144,
+    "ci": [
+     0.067,
+     0.217
+    ],
+    "n_lyrics": 48,
+    "sig": "+"
+   }
+  },
+  "XL - 2B+P": {
+   "mix_off": {
+    "d": -0.084,
+    "ci": [
+     -0.15,
+     -0.022
+    ],
+    "n_lyrics": 48,
+    "sig": "-"
+   },
+   "mix_on": {
+    "d": -0.258,
+    "ci": [
+     -0.323,
+     -0.195
+    ],
+    "n_lyrics": 48,
+    "sig": "-"
+   },
+   "vocals_vad": {
+    "d": -0.034,
+    "ci": [
+     -0.082,
+     0.012
+    ],
+    "n_lyrics": 48,
+    "sig": "0"
+   },
+   "energy": {
+    "d": -0.015,
+    "ci": [
+     -0.089,
+     0.057
+    ],
+    "n_lyrics": 48,
+    "sig": "0"
+   }
+  },
+  "XL+P - 2B+P": {
+   "mix_off": {
+    "d": -0.068,
+    "ci": [
+     -0.141,
+     -0.0
+    ],
+    "n_lyrics": 48,
+    "sig": "-"
+   },
+   "mix_on": {
+    "d": -0.226,
+    "ci": [
+     -0.279,
+     -0.174
+    ],
+    "n_lyrics": 48,
+    "sig": "-"
+   },
+   "vocals_vad": {
+    "d": -0.057,
+    "ci": [
+     -0.097,
+     -0.015
+    ],
+    "n_lyrics": 48,
+    "sig": "-"
+   },
+   "energy": {
+    "d": 0.007,
+    "ci": [
+     -0.048,
+     0.06
+    ],
+    "n_lyrics": 48,
+    "sig": "0"
+   }
+  },
+  "2B+P - 2B": {
+   "mix_off": {
+    "d": 0.164,
+    "ci": [
+     0.102,
+     0.223
+    ],
+    "n_lyrics": 48,
+    "sig": "+"
+   },
+   "mix_on": {
+    "d": 0.058,
+    "ci": [
+     0.001,
+     0.112
+    ],
+    "n_lyrics": 48,
+    "sig": "+"
+   },
+   "vocals_vad": {
+    "d": 0.116,
+    "ci": [
+     0.054,
+     0.173
+    ],
+    "n_lyrics": 48,
+    "sig": "+"
+   },
+   "energy": {
+    "d": 0.138,
+    "ci": [
+     0.063,
+     0.209
+    ],
+    "n_lyrics": 48,
+    "sig": "+"
+   }
+  },
+  "XL+P - XL": {
+   "mix_off": {
+    "d": 0.015,
+    "ci": [
+     -0.062,
+     0.089
+    ],
+    "n_lyrics": 48,
+    "sig": "0"
+   },
+   "mix_on": {
+    "d": 0.032,
+    "ci": [
+     -0.01,
+     0.081
+    ],
+    "n_lyrics": 48,
+    "sig": "0"
+   },
+   "vocals_vad": {
+    "d": -0.023,
+    "ci": [
+     -0.077,
+     0.029
+    ],
+    "n_lyrics": 48,
+    "sig": "0"
+   },
+   "energy": {
+    "d": 0.021,
+    "ci": [
+     -0.055,
+     0.098
+    ],
+    "n_lyrics": 48,
+    "sig": "0"
+   }
+  },
+  "LeVo - HeartMuLa": {
+   "mix_off": {
+    "d": -0.074,
+    "ci": [
+     -0.103,
+     -0.045
+    ],
+    "n_lyrics": 48,
+    "sig": "-"
+   },
+   "mix_on": {
+    "d": 0.06,
+    "ci": [
+     -0.0,
+     0.121
+    ],
+    "n_lyrics": 48,
+    "sig": "0"
+   },
+   "vocals_vad": {
+    "d": -0.021,
+    "ci": [
+     -0.053,
+     0.01
+    ],
+    "n_lyrics": 48,
+    "sig": "0"
+   },
+   "energy": {
+    "d": -0.092,
+    "ci": [
+     -0.124,
+     -0.06
+    ],
+    "n_lyrics": 48,
+    "sig": "-"
+   }
+  },
+  "DiffRhythm - HeartMuLa": {
+   "mix_off": {
+    "d": -0.039,
+    "ci": [
+     -0.088,
+     0.006
+    ],
+    "n_lyrics": 48,
+    "sig": "0"
+   },
+   "mix_on": {
+    "d": -0.113,
+    "ci": [
+     -0.189,
+     -0.036
+    ],
+    "n_lyrics": 48,
+    "sig": "-"
+   },
+   "vocals_vad": {
+    "d": -0.13,
+    "ci": [
+     -0.194,
+     -0.068
+    ],
+    "n_lyrics": 48,
+    "sig": "-"
+   },
+   "energy": {
+    "d": -0.031,
+    "ci": [
+     -0.069,
+     0.007
+    ],
+    "n_lyrics": 48,
+    "sig": "0"
+   }
+  },
+  "DiffRhythm - LeVo": {
+   "mix_off": {
+    "d": 0.035,
+    "ci": [
+     -0.02,
+     0.082
+    ],
+    "n_lyrics": 48,
+    "sig": "0"
+   },
+   "mix_on": {
+    "d": -0.173,
+    "ci": [
+     -0.244,
+     -0.105
+    ],
+    "n_lyrics": 48,
+    "sig": "-"
+   },
+   "vocals_vad": {
+    "d": -0.109,
+    "ci": [
+     -0.174,
+     -0.048
+    ],
+    "n_lyrics": 48,
+    "sig": "-"
+   },
+   "energy": {
+    "d": 0.061,
+    "ci": [
+     0.021,
+     0.1
+    ],
+    "n_lyrics": 48,
+    "sig": "+"
+   }
+  },
+  "DiffRhythm - 2B": {
+   "mix_off": {
+    "d": 0.192,
+    "ci": [
+     0.129,
+     0.25
+    ],
+    "n_lyrics": 48,
+    "sig": "+"
+   },
+   "mix_on": {
+    "d": 0.073,
+    "ci": [
+     0.004,
+     0.142
+    ],
+    "n_lyrics": 48,
+    "sig": "+"
+   },
+   "vocals_vad": {
+    "d": 0.073,
+    "ci": [
+     -0.005,
+     0.147
+    ],
+    "n_lyrics": 48,
+    "sig": "0"
+   },
+   "energy": {
+    "d": 0.243,
+    "ci": [
+     0.19,
+     0.296
+    ],
+    "n_lyrics": 48,
+    "sig": "+"
+   }
+  },
+  "DiffRhythm - XL": {
+   "mix_off": {
+    "d": 0.112,
+    "ci": [
+     0.042,
+     0.186
+    ],
+    "n_lyrics": 48,
+    "sig": "+"
+   },
+   "mix_on": {
+    "d": 0.273,
+    "ci": [
+     0.207,
+     0.342
+    ],
+    "n_lyrics": 48,
+    "sig": "+"
+   },
+   "vocals_vad": {
+    "d": -0.008,
+    "ci": [
+     -0.069,
+     0.048
+    ],
+    "n_lyrics": 48,
+    "sig": "0"
+   },
+   "energy": {
+    "d": 0.12,
+    "ci": [
+     0.058,
+     0.19
+    ],
+    "n_lyrics": 48,
+    "sig": "+"
+   }
+  },
+  "DiffRhythm - 2B+P": {
+   "mix_off": {
+    "d": 0.028,
+    "ci": [
+     -0.038,
+     0.094
+    ],
+    "n_lyrics": 48,
+    "sig": "0"
+   },
+   "mix_on": {
+    "d": 0.016,
+    "ci": [
+     -0.052,
+     0.083
+    ],
+    "n_lyrics": 48,
+    "sig": "0"
+   },
+   "vocals_vad": {
+    "d": -0.042,
+    "ci": [
+     -0.094,
+     0.007
+    ],
+    "n_lyrics": 48,
+    "sig": "0"
+   },
+   "energy": {
+    "d": 0.105,
+    "ci": [
+     0.045,
+     0.17
+    ],
+    "n_lyrics": 48,
+    "sig": "+"
+   }
+  }
+ },
+ "contradictions_vs_off": 0,
+ "truth": {
+  "n_songs": 20,
+  "n_words": 5693,
+  "words_dropped_pooled": 0.0423,
+  "median_song_frac_dropped": 0.0275
+ }
+}

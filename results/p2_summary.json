@@ -1,0 +1,163 @@
+{
+ "per_system": {
+  "2B·B": {
+   "n": 96,
+   "P0_mean": 0.311,
+   "P1_mean": 0.6501,
+   "P2_mean": 0.6575,
+   "below_0.3": {
+    "P0": 49,
+    "P1": 6,
+    "P2": 5
+   },
+   "flagged": 9,
+   "rescued": 1,
+   "flagged_recall_P1_mean": 0.3574,
+   "flagged_recall_P2_mean": 0.4362,
+   "flagged_P2_ge_0.6": 5,
+   "still_flagged_after_P2": 8,
+   "unflagged_voc_minus_mix_mean": -0.0504,
+   "unflagged_voc_worse": 61,
+   "unflagged_voc_better": 17,
+   "all_vocals_mean": 0.6194
+  },
+  "2B·C": {
+   "n": 96,
+   "P0_mean": 0.3688,
+   "P1_mean": 0.8139,
+   "P2_mean": 0.8199,
+   "below_0.3": {
+    "P0": 45,
+    "P1": 5,
+    "P2": 4
+   },
+   "flagged": 7,
+   "rescued": 1,
+   "flagged_recall_P1_mean": 0.1999,
+   "flagged_recall_P2_mean": 0.2828,
+   "flagged_P2_ge_0.6": 2,
+   "still_flagged_after_P2": 6,
+   "unflagged_voc_minus_mix_mean": -0.0642,
+   "unflagged_voc_worse": 71,
+   "unflagged_voc_better": 13,
+   "all_vocals_mean": 0.7648
+  },
+  "XL·B": {
+   "n": 96,
+   "P0_mean": 0.1111,
+   "P1_mean": 0.7301,
+   "P2_mean": 0.7845,
+   "below_0.3": {
+    "P0": 85,
+    "P1": 14,
+    "P2": 6
+   },
+   "flagged": 14,
+   "rescued": 8,
+   "flagged_recall_P1_mean": 0.0731,
+   "flagged_recall_P2_mean": 0.4462,
+   "flagged_P2_ge_0.6": 5,
+   "still_flagged_after_P2": 6,
+   "unflagged_voc_minus_mix_mean": -0.0717,
+   "unflagged_voc_worse": 59,
+   "unflagged_voc_better": 19,
+   "all_vocals_mean": 0.7198
+  },
+  "XL·C": {
+   "n": 96,
+   "P0_mean": 0.1427,
+   "P1_mean": 0.7456,
+   "P2_mean": 0.7971,
+   "below_0.3": {
+    "P0": 78,
+    "P1": 13,
+    "P2": 6
+   },
+   "flagged": 14,
+   "rescued": 7,
+   "flagged_recall_P1_mean": 0.1319,
+   "flagged_recall_P2_mean": 0.4855,
+   "flagged_P2_ge_0.6": 7,
+   "still_flagged_after_P2": 7,
+   "unflagged_voc_minus_mix_mean": -0.097,
+   "unflagged_voc_worse": 68,
+   "unflagged_voc_better": 11,
+   "all_vocals_mean": 0.7119
+  },
+  "all": {
+   "n": 384,
+   "P0_mean": 0.2334,
+   "P1_mean": 0.7349,
+   "P2_mean": 0.7648,
+   "below_0.3": {
+    "P0": 257,
+    "P1": 38,
+    "P2": 21
+   },
+   "flagged": 44,
+   "rescued": 17,
+   "flagged_recall_P1_mean": 0.1701,
+   "flagged_recall_P2_mean": 0.4307,
+   "flagged_P2_ge_0.6": 19,
+   "still_flagged_after_P2": 27,
+   "unflagged_voc_minus_mix_mean": -0.0704,
+   "unflagged_voc_worse": 259,
+   "unflagged_voc_better": 60,
+   "all_vocals_mean": 0.704
+  }
+ },
+ "ranking_P0": [
+  [
+   "2B·C",
+   0.3688
+  ],
+  [
+   "2B·B",
+   0.311
+  ],
+  [
+   "XL·C",
+   0.1427
+  ],
+  [
+   "XL·B",
+   0.1111
+  ]
+ ],
+ "ranking_P1": [
+  [
+   "2B·C",
+   0.8139
+  ],
+  [
+   "XL·C",
+   0.7456
+  ],
+  [
+   "XL·B",
+   0.7301
+  ],
+  [
+   "2B·B",
+   0.6501
+  ]
+ ],
+ "ranking_P2": [
+  [
+   "2B·C",
+   0.8199
+  ],
+  [
+   "XL·C",
+   0.7971
+  ],
+  [
+   "XL·B",
+   0.7845
+  ],
+  [
+   "2B·B",
+   0.6575
+  ]
+ ]
+}

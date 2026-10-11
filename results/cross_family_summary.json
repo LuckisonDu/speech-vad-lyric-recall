@@ -1,0 +1,356 @@
+{
+ "per_system": {
+  "2B·B": {
+   "n": 96,
+   "recall_off_mean": 0.6501,
+   "recall_on_mean": 0.311,
+   "recall_off_median": 0.7082,
+   "recall_on_median": 0.2644,
+   "broken_on": 30,
+   "worse_on": 86,
+   "zero_on": 6,
+   "below03_on": 49,
+   "kept_sec_median": 21.4,
+   "kept_sec_mean": 25.8
+  },
+  "2B·C": {
+   "n": 96,
+   "recall_off_mean": 0.8139,
+   "recall_on_mean": 0.3688,
+   "recall_off_median": 0.8879,
+   "recall_on_median": 0.3226,
+   "broken_on": 37,
+   "worse_on": 88,
+   "zero_on": 10,
+   "below03_on": 45,
+   "kept_sec_median": 25.1,
+   "kept_sec_mean": 29.9
+  },
+  "XL·B": {
+   "n": 96,
+   "recall_off_mean": 0.7301,
+   "recall_on_mean": 0.1111,
+   "recall_off_median": 0.8516,
+   "recall_on_median": 0.052,
+   "broken_on": 66,
+   "worse_on": 89,
+   "zero_on": 29,
+   "below03_on": 85,
+   "kept_sec_median": 4.1,
+   "kept_sec_mean": 10.3
+  },
+  "XL·C": {
+   "n": 96,
+   "recall_off_mean": 0.7456,
+   "recall_on_mean": 0.1427,
+   "recall_off_median": 0.8629,
+   "recall_on_median": 0.047,
+   "broken_on": 62,
+   "worse_on": 87,
+   "zero_on": 33,
+   "below03_on": 78,
+   "kept_sec_median": 3.9,
+   "kept_sec_mean": 11.4
+  },
+  "HeartMuLa": {
+   "n": 192,
+   "recall_off_mean": 0.8804,
+   "recall_on_mean": 0.4973,
+   "recall_off_median": 0.9432,
+   "recall_on_median": 0.4587,
+   "broken_on": 44,
+   "worse_on": 184,
+   "zero_on": 1,
+   "below03_on": 55,
+   "kept_sec_median": 35.7,
+   "kept_sec_mean": 39.2,
+   "P0_mean": 0.4973,
+   "P1_mean": 0.8804,
+   "P2_mean": 0.8824,
+   "all_vocals_mean": 0.8498,
+   "flagged": 8,
+   "rescued": 1,
+   "below03": {
+    "P0": 55,
+    "P1": 2,
+    "P2": 1,
+    "all_vocals": 0
+   },
+   "wer_off_mean": 0.4899,
+   "wer_on_mean": 0.5564,
+   "per_off_mean": 0.4269,
+   "per_on_mean": 0.528
+  },
+  "LeVo": {
+   "n": 192,
+   "recall_off_mean": 0.8068,
+   "recall_on_mean": 0.5575,
+   "recall_off_median": 0.8968,
+   "recall_on_median": 0.5959,
+   "broken_on": 25,
+   "worse_on": 173,
+   "zero_on": 1,
+   "below03_on": 39,
+   "kept_sec_median": 42.6,
+   "kept_sec_mean": 44.9,
+   "P0_mean": 0.5575,
+   "P1_mean": 0.8068,
+   "P2_mean": 0.8161,
+   "all_vocals_mean": 0.7763,
+   "flagged": 12,
+   "rescued": 3,
+   "below03": {
+    "P0": 39,
+    "P1": 5,
+    "P2": 3,
+    "all_vocals": 6
+   },
+   "wer_off_mean": 0.4102,
+   "wer_on_mean": 0.4985,
+   "per_off_mean": 0.3408,
+   "per_on_mean": 0.4473
+  }
+ },
+ "compare": {
+  "LeVo − HeartMuLa": {
+   "recall_off": {
+    "diff_mean": -0.0736,
+    "ci95": [
+     -0.1037,
+     -0.0446
+    ],
+    "wilcoxon_p_by_song": 2.3073457597185476e-05,
+    "n_songs": 48
+   },
+   "recall_on": {
+    "diff_mean": 0.0602,
+    "ci95": [
+     -0.0009,
+     0.1217
+    ],
+    "wilcoxon_p_by_song": 0.07500246824307055,
+    "n_songs": 48
+   },
+   "wer_off": {
+    "diff_mean": -0.0797,
+    "ci95": [
+     -0.1942,
+     0.0177
+    ],
+    "wilcoxon_p_by_song": 0.35653440731879726,
+    "n_songs": 48
+   },
+   "per_off": {
+    "diff_mean": -0.0861,
+    "ci95": [
+     -0.2018,
+     0.0112
+    ],
+    "wilcoxon_p_by_song": 0.25965150112120483,
+    "n_songs": 48
+   },
+   "wer_on": {
+    "diff_mean": -0.058,
+    "ci95": [
+     -0.1342,
+     0.0108
+    ],
+    "wilcoxon_p_by_song": 0.19634448189412979,
+    "n_songs": 48
+   },
+   "per_on": {
+    "diff_mean": -0.0807,
+    "ci95": [
+     -0.1565,
+     -0.0121
+    ],
+    "wilcoxon_p_by_song": 0.04100270482356194,
+    "n_songs": 48
+   }
+  },
+  "LeVo − 2B·B": {
+   "recall_off": {
+    "diff_mean": 0.1628,
+    "ci95": [
+     0.1086,
+     0.2151
+    ],
+    "wilcoxon_p_by_song": 3.7770006855453175e-07,
+    "n_songs": 48
+   },
+   "recall_on": {
+    "diff_mean": 0.2485,
+    "ci95": [
+     0.1876,
+     0.3091
+    ],
+    "wilcoxon_p_by_song": 1.3932250908510468e-09,
+    "n_songs": 48
+   }
+  },
+  "LeVo − 2B·C": {
+   "recall_off": {
+    "diff_mean": -0.0009,
+    "ci95": [
+     -0.0543,
+     0.0588
+    ],
+    "wilcoxon_p_by_song": 0.3026395140902328,
+    "n_songs": 48
+   },
+   "recall_on": {
+    "diff_mean": 0.1908,
+    "ci95": [
+     0.1122,
+     0.2689
+    ],
+    "wilcoxon_p_by_song": 1.855161537633876e-05,
+    "n_songs": 48
+   }
+  },
+  "LeVo − XL·B": {
+   "recall_off": {
+    "diff_mean": 0.0828,
+    "ci95": [
+     0.0097,
+     0.1615
+    ],
+    "wilcoxon_p_by_song": 0.23853533813757366,
+    "n_songs": 48
+   },
+   "recall_on": {
+    "diff_mean": 0.4484,
+    "ci95": [
+     0.386,
+     0.5099
+    ],
+    "wilcoxon_p_by_song": 7.105427357601002e-15,
+    "n_songs": 48
+   }
+  },
+  "LeVo − XL·C": {
+   "recall_off": {
+    "diff_mean": 0.0674,
+    "ci95": [
+     0.0003,
+     0.1397
+    ],
+    "wilcoxon_p_by_song": 0.2851606875624493,
+    "n_songs": 48
+   },
+   "recall_on": {
+    "diff_mean": 0.4168,
+    "ci95": [
+     0.3479,
+     0.4831
+    ],
+    "wilcoxon_p_by_song": 3.055333763768431e-13,
+    "n_songs": 48
+   }
+  },
+  "HeartMuLa − 2B·C": {
+   "recall_off": {
+    "diff_mean": 0.0603,
+    "ci95": [
+     -0.0073,
+     0.1318
+    ],
+    "wilcoxon_p_by_song": 0.01828292167222618,
+    "n_songs": 48
+   },
+   "recall_on": {
+    "diff_mean": 0.1326,
+    "ci95": [
+     0.0522,
+     0.2162
+    ],
+    "wilcoxon_p_by_song": 0.01566342685493538,
+    "n_songs": 48
+   }
+  },
+  "HeartMuLa − XL·B": {
+   "recall_off": {
+    "diff_mean": 0.144,
+    "ci95": [
+     0.069,
+     0.2229
+    ],
+    "wilcoxon_p_by_song": 2.4464574707394604e-05,
+    "n_songs": 48
+   },
+   "recall_on": {
+    "diff_mean": 0.3902,
+    "ci95": [
+     0.3193,
+     0.463
+    ],
+    "wilcoxon_p_by_song": 1.4210854715202004e-14,
+    "n_songs": 48
+   }
+  }
+ },
+ "spearman_kept_vs_recall_on_all": 0.867,
+ "spearman_kept_vs_recall_off_all": 0.175,
+ "n_items_all": 768,
+ "spearman_kept_by_system": {
+  "2B·B": {
+   "on": 0.891,
+   "off": 0.108,
+   "n": 96
+  },
+  "2B·C": {
+   "on": 0.918,
+   "off": 0.364,
+   "n": 96
+  },
+  "XL·B": {
+   "on": 0.949,
+   "off": 0.176,
+   "n": 96
+  },
+  "XL·C": {
+   "on": 0.962,
+   "off": 0.198,
+   "n": 96
+  },
+  "HeartMuLa": {
+   "on": 0.777,
+   "off": -0.019,
+   "n": 192
+  },
+  "LeVo": {
+   "on": 0.461,
+   "off": -0.088,
+   "n": 192
+  }
+ },
+ "rank_by_recall_on": [
+  "LeVo",
+  "HeartMuLa",
+  "2B·C",
+  "2B·B",
+  "XL·C",
+  "XL·B"
+ ],
+ "rank_by_recall_off": [
+  "HeartMuLa",
+  "2B·C",
+  "LeVo",
+  "XL·C",
+  "XL·B",
+  "2B·B"
+ ],
+ "rank_by_kept_mean": [
+  "LeVo",
+  "HeartMuLa",
+  "2B·C",
+  "2B·B",
+  "XL·C",
+  "XL·B"
+ ],
+ "levo_minus_heart_kept": {
+  "mean": 5.7,
+  "levo_more": 118,
+  "n": 192
+ }
+}

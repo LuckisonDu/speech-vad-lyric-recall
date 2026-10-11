@@ -1,0 +1,357 @@
+{
+ "per_system": {
+  "2B·B": {
+   "n": 96,
+   "recall_off_mean": 0.6501,
+   "recall_on_mean": 0.311,
+   "recall_off_median": 0.7082,
+   "recall_on_median": 0.2644,
+   "keep_median": 0.2873,
+   "broken_by_vad_on": 30,
+   "broken_by_vad_off": 3,
+   "zero_words_on": 6,
+   "worse_with_vad": 86,
+   "cr_gt_2.4_off": 22,
+   "wps_lt_0.5_on": 65,
+   "wps_lt_0.5_off": 9
+  },
+  "XL·B": {
+   "n": 96,
+   "recall_off_mean": 0.7301,
+   "recall_on_mean": 0.1111,
+   "recall_off_median": 0.8516,
+   "recall_on_median": 0.052,
+   "keep_median": 0.0596,
+   "broken_by_vad_on": 66,
+   "broken_by_vad_off": 0,
+   "zero_words_on": 29,
+   "worse_with_vad": 89,
+   "cr_gt_2.4_off": 17,
+   "wps_lt_0.5_on": 88,
+   "wps_lt_0.5_off": 14
+  },
+  "orig": {
+   "n": 48,
+   "recall_off_mean": 0.7634,
+   "recall_on_mean": 0.2899,
+   "recall_off_median": 0.8793,
+   "recall_on_median": 0.1676,
+   "keep_median": 0.2188,
+   "broken_by_vad_on": 24,
+   "broken_by_vad_off": 3,
+   "zero_words_on": 11,
+   "worse_with_vad": 44,
+   "cr_gt_2.4_off": 2,
+   "wps_lt_0.5_on": 31,
+   "wps_lt_0.5_off": 6
+  },
+  "2B·C": {
+   "n": 96,
+   "recall_off_mean": 0.8139,
+   "recall_on_mean": 0.3688,
+   "recall_off_median": 0.8879,
+   "recall_on_median": 0.3226,
+   "keep_median": 0.3074,
+   "broken_by_vad_on": 37,
+   "broken_by_vad_off": 0,
+   "zero_words_on": 10,
+   "worse_with_vad": 88,
+   "cr_gt_2.4_off": 18,
+   "wps_lt_0.5_on": 57,
+   "wps_lt_0.5_off": 7
+  },
+  "XL·C": {
+   "n": 96,
+   "recall_off_mean": 0.7456,
+   "recall_on_mean": 0.1427,
+   "recall_off_median": 0.8629,
+   "recall_on_median": 0.047,
+   "keep_median": 0.0479,
+   "broken_by_vad_on": 62,
+   "broken_by_vad_off": 0,
+   "zero_words_on": 33,
+   "worse_with_vad": 87,
+   "cr_gt_2.4_off": 12,
+   "wps_lt_0.5_on": 82,
+   "wps_lt_0.5_off": 14
+  }
+ },
+ "compare": {
+  "2B·C − 2B·B": {
+   "pairs": 96,
+   "songs": 48,
+   "vad_off": {
+    "mean_a": 0.6501,
+    "mean_b": 0.8139,
+    "diff_mean": 0.1637,
+    "ci95": [
+     0.1012,
+     0.2222
+    ],
+    "b_wins": 81,
+    "a_wins": 14,
+    "wilcoxon_p_by_song": 1.74e-06
+   },
+   "vad_on": {
+    "mean_a": 0.311,
+    "mean_b": 0.3688,
+    "diff_mean": 0.0578,
+    "ci95": [
+     0.0006,
+     0.1133
+    ],
+    "b_wins": 58,
+    "a_wins": 36,
+    "wilcoxon_p_by_song": 0.0316
+   },
+   "interaction_on_minus_off": {
+    "diff_mean": -0.1059,
+    "ci95": [
+     -0.1729,
+     -0.0385
+    ]
+   },
+   "winner_flips": 33,
+   "broken_a": 30,
+   "broken_b": 37,
+   "broken_only_a": 13,
+   "broken_only_b": 20
+  },
+  "XL·B − 2B·B": {
+   "pairs": 96,
+   "songs": 48,
+   "vad_off": {
+    "mean_a": 0.6501,
+    "mean_b": 0.7301,
+    "diff_mean": 0.08,
+    "ci95": [
+     0.0164,
+     0.1411
+    ],
+    "b_wins": 72,
+    "a_wins": 22,
+    "wilcoxon_p_by_song": 0.00732
+   },
+   "vad_on": {
+    "mean_a": 0.311,
+    "mean_b": 0.1111,
+    "diff_mean": -0.1999,
+    "ci95": [
+     -0.2572,
+     -0.145
+    ],
+    "b_wins": 21,
+    "a_wins": 69,
+    "wilcoxon_p_by_song": 6.99e-09
+   },
+   "interaction_on_minus_off": {
+    "diff_mean": -0.2799,
+    "ci95": [
+     -0.358,
+     -0.1994
+    ]
+   },
+   "winner_flips": 51,
+   "broken_a": 30,
+   "broken_b": 66,
+   "broken_only_a": 8,
+   "broken_only_b": 44
+  },
+  "XL·C − 2B·B": {
+   "pairs": 96,
+   "songs": 48,
+   "vad_off": {
+    "mean_a": 0.6501,
+    "mean_b": 0.7456,
+    "diff_mean": 0.0954,
+    "ci95": [
+     0.0216,
+     0.1627
+    ],
+    "b_wins": 70,
+    "a_wins": 24,
+    "wilcoxon_p_by_song": 0.00275
+   },
+   "vad_on": {
+    "mean_a": 0.311,
+    "mean_b": 0.1427,
+    "diff_mean": -0.1683,
+    "ci95": [
+     -0.2291,
+     -0.1097
+    ],
+    "b_wins": 18,
+    "a_wins": 70,
+    "wilcoxon_p_by_song": 4.37e-07
+   },
+   "interaction_on_minus_off": {
+    "diff_mean": -0.2637,
+    "ci95": [
+     -0.3435,
+     -0.1792
+    ]
+   },
+   "winner_flips": 53,
+   "broken_a": 30,
+   "broken_b": 62,
+   "broken_only_a": 5,
+   "broken_only_b": 37
+  },
+  "XL·B − 2B·C": {
+   "pairs": 96,
+   "songs": 48,
+   "vad_off": {
+    "mean_a": 0.8139,
+    "mean_b": 0.7301,
+    "diff_mean": -0.0837,
+    "ci95": [
+     -0.15,
+     -0.0211
+    ],
+    "b_wins": 34,
+    "a_wins": 58,
+    "wilcoxon_p_by_song": 0.00931
+   },
+   "vad_on": {
+    "mean_a": 0.3688,
+    "mean_b": 0.1111,
+    "diff_mean": -0.2577,
+    "ci95": [
+     -0.3236,
+     -0.1942
+    ],
+    "b_wins": 13,
+    "a_wins": 76,
+    "wilcoxon_p_by_song": 2.31e-08
+   },
+   "interaction_on_minus_off": {
+    "diff_mean": -0.1739,
+    "ci95": [
+     -0.2509,
+     -0.0955
+    ]
+   },
+   "winner_flips": 27,
+   "broken_a": 37,
+   "broken_b": 66,
+   "broken_only_a": 8,
+   "broken_only_b": 37
+  },
+  "XL·C − 2B·C": {
+   "pairs": 96,
+   "songs": 48,
+   "vad_off": {
+    "mean_a": 0.8139,
+    "mean_b": 0.7456,
+    "diff_mean": -0.0683,
+    "ci95": [
+     -0.1391,
+     -0.0007
+    ],
+    "b_wins": 42,
+    "a_wins": 50,
+    "wilcoxon_p_by_song": 0.115
+   },
+   "vad_on": {
+    "mean_a": 0.3688,
+    "mean_b": 0.1427,
+    "diff_mean": -0.2261,
+    "ci95": [
+     -0.2783,
+     -0.1737
+    ],
+    "b_wins": 13,
+    "a_wins": 75,
+    "wilcoxon_p_by_song": 4.75e-08
+   },
+   "interaction_on_minus_off": {
+    "diff_mean": -0.1578,
+    "ci95": [
+     -0.2322,
+     -0.0784
+    ]
+   },
+   "winner_flips": 35,
+   "broken_a": 37,
+   "broken_b": 62,
+   "broken_only_a": 4,
+   "broken_only_b": 29
+  },
+  "XL·C − XL·B": {
+   "pairs": 96,
+   "songs": 48,
+   "vad_off": {
+    "mean_a": 0.7301,
+    "mean_b": 0.7456,
+    "diff_mean": 0.0154,
+    "ci95": [
+     -0.0619,
+     0.0888
+    ],
+    "b_wins": 50,
+    "a_wins": 38,
+    "wilcoxon_p_by_song": 0.208
+   },
+   "vad_on": {
+    "mean_a": 0.1111,
+    "mean_b": 0.1427,
+    "diff_mean": 0.0316,
+    "ci95": [
+     -0.0095,
+     0.08
+    ],
+    "b_wins": 38,
+    "a_wins": 35,
+    "wilcoxon_p_by_song": 0.639
+   },
+   "interaction_on_minus_off": {
+    "diff_mean": 0.0162,
+    "ci95": [
+     -0.0612,
+     0.1
+    ]
+   },
+   "winner_flips": 29,
+   "broken_a": 66,
+   "broken_b": 62,
+   "broken_only_a": 18,
+   "broken_only_b": 14
+  }
+ },
+ "ranking_vad_off": [
+  [
+   "2B·C",
+   0.8139
+  ],
+  [
+   "XL·C",
+   0.7456
+  ],
+  [
+   "XL·B",
+   0.7301
+  ],
+  [
+   "2B·B",
+   0.6501
+  ]
+ ],
+ "ranking_vad_on": [
+  [
+   "2B·C",
+   0.3688
+  ],
+  [
+   "2B·B",
+   0.311
+  ],
+  [
+   "XL·C",
+   0.1427
+  ],
+  [
+   "XL·B",
+   0.1111
+  ]
+ ]
+}

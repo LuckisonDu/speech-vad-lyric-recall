@@ -1,0 +1,96 @@
+{
+ "means": {
+  "batched_default": {
+   "2B": 0.2569,
+   "2B+pl": 0.2992,
+   "XL": 0.0862,
+   "XL+pl": 0.1076,
+   "HeartMuLa": 0.4594,
+   "LeVo": 0.483
+  },
+  "plain_default": {
+   "2B": 0.6555,
+   "2B+pl": 0.8167,
+   "XL": 0.7907,
+   "XL+pl": 0.7515,
+   "HeartMuLa": 0.8869,
+   "LeVo": 0.8106
+  }
+ },
+ "ranks": {
+  "batched_default": [
+   "LeVo",
+   "HeartMuLa",
+   "2B+pl",
+   "2B",
+   "XL+pl",
+   "XL"
+  ],
+  "plain_default": [
+   "HeartMuLa",
+   "2B+pl",
+   "LeVo",
+   "XL",
+   "XL+pl",
+   "2B"
+  ]
+ },
+ "kept_median_batched": {
+  "2B": 15.945,
+  "2B+pl": 17.06,
+  "XL": 1.52,
+  "XL+pl": 1.6949999999999998,
+  "HeartMuLa": 31.78,
+  "LeVo": 35.68
+ },
+ "pairs": {
+  "XL − 2B": {
+   "batched_default": [
+    -0.171,
+    -0.222,
+    -0.123
+   ],
+   "plain_default": [
+    0.135,
+    0.071,
+    0.195
+   ]
+  },
+  "XL+pl − 2B": {
+   "batched_default": [
+    -0.149,
+    -0.2,
+    -0.101
+   ],
+   "plain_default": [
+    0.096,
+    0.02,
+    0.166
+   ]
+  },
+  "LeVo − HeartMuLa": {
+   "batched_default": [
+    0.024,
+    -0.045,
+    0.092
+   ],
+   "plain_default": [
+    -0.076,
+    -0.118,
+    -0.04
+   ]
+  },
+  "LeVo − 2B+pl": {
+   "batched_default": [
+    0.184,
+    0.113,
+    0.256
+   ],
+   "plain_default": [
+    -0.006,
+    -0.063,
+    0.055
+   ]
+  }
+ }
+}

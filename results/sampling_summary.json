@@ -1,0 +1,27 @@
+{
+ "n_songs_total": 48,
+ "p_positive": {
+  "vad_off_one_seed_n5": 0.631,
+  "vad_off_one_seed_n10": 0.683,
+  "vad_off_one_seed_n20": 0.749,
+  "vad_off_one_seed_n30": 0.855,
+  "vad_off_one_seed_n48": 1.0,
+  "vad_off_two_seeds_n5": 0.794,
+  "vad_off_two_seeds_n10": 0.896,
+  "vad_off_two_seeds_n20": 0.984,
+  "vad_off_two_seeds_n30": 1.0,
+  "vad_off_two_seeds_n48": 1.0,
+  "vad_on_one_seed_n5": 0.004,
+  "vad_on_one_seed_n10": 0.0,
+  "vad_on_one_seed_n20": 0.0,
+  "vad_on_one_seed_n30": 0.0,
+  "vad_on_one_seed_n48": 0.0,
+  "vad_on_two_seeds_n5": 0.003,
+  "vad_on_two_seeds_n10": 0.0,
+  "vad_on_two_seeds_n20": 0.0,
+  "vad_on_two_seeds_n30": 0.0,
+  "vad_on_two_seeds_n48": 0.0
+ },
+ "vad_off_seed_disagree": 16,
+ "vad_on_seed_disagree": 12
+}
