@@ -42,6 +42,7 @@ def main():
                     continue
                 m, _ = librosa.load(str(w), sr=16000, mono=True, duration=120.0)
                 v, _ = librosa.load(str(vp), sr=16000, mono=True)
+                assert abs(len(m) - len(v)) <= 160, (w, len(m), len(v))   # vocals must be aligned and the same length as the mix
                 n = min(len(m), len(v)); m, v = m[:n].astype(np.float32), v[:n].astype(np.float32); a = m - v
                 wr.writerow([exp, arm, song, seed] + [kept(np.clip(v + g * a, -1, 1).astype(np.float32)) for g in GAINS])
                 f.flush()

@@ -24,9 +24,15 @@ from pathlib import Path
 # ===== Edit here =====
 RESULTS_DIR = Path(__file__).resolve().parent.parent / "results"   # folder holding the result CSV/JSON files
 CROP_SEC = 120      # length of the analysed crop; kept fraction = kept_sec / CROP_SEC, capped at 1
+ACE_SEEDS = ("1", "2")   # vad_gen48.csv / vad_stats48.csv contain ACE-Step seeds 1-6, but the inputs for thresholds 0.3 and 0.1
+                         # (vad_sweep48.csv, tool_fw_thr_*.csv) only have seeds 1 and 2. The criterion uses system means, and
+                         # a, c and the VAD-on score must come from the same songs, so ACE-Step uses seeds 1 and 2 only
+                         # (HeartMuLa / LeVo use all their seeds as before)
 # =====================
 
 R = RESULTS_DIR
+ACE = {"2B", "2B+pl", "XL", "XL+pl"}
+use = lambda k: k[0] not in ACE or k[2] in ACE_SEEDS
 SYS = {("vad48_2b", "B"): "2B", ("vad48_2b", "C"): "2B+pl", ("vad48_xl", "B"): "XL", ("vad48_xl", "C"): "XL+pl",
        ("vad48_heart", "H"): "HeartMuLa", ("vad48_levo", "L"): "LeVo"}
 off, on = {}, defaultdict(dict)
@@ -34,6 +40,8 @@ for fn in ("vad_gen48.csv", "vad_gen48_heart.csv", "vad_gen48_levo.csv"):
     for r in csv.DictReader(open(R / fn)):
         if r["src"] == "gen":
             k = (SYS[(r["exp"], r["arm"])], r["song"], r["seed"])
+            if not use(k):
+                continue
             if r["vad"] == "False":
                 off[k] = float(r["recall"])
             else:
@@ -45,7 +53,8 @@ kept = defaultdict(dict)
 for fn in ("vad_stats48.csv", "vad_stats48_heart_levo.csv"):
     for r in csv.DictReader(open(R / fn)):
         if r["src"] == "gen":
-            kept["0.5"][(SYS[(r["exp"], r["arm"])], r["song"], r["seed"])] = min(1.0, float(r["kept_sec"]) / CROP_SEC)
+            if use((SYS[(r["exp"], r["arm"])], r["song"], r["seed"])):
+                kept["0.5"][(SYS[(r["exp"], r["arm"])], r["song"], r["seed"])] = min(1.0, float(r["kept_sec"]) / CROP_SEC)
 for r in csv.DictReader(open(R / "vad_sweep48.csv")):
     if r["src"] == "gen":
         for t in ("0.3", "0.1"):

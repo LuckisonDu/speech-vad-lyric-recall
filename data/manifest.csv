@@ -1,196 +1,580 @@
 song_id,exp,arm,generator,model,planner,seed,crop_sec,gen_params
 song001,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song001,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song001,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song001,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song001,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song001,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song002,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song002,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song002,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song002,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song002,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song002,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song003,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song003,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song003,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song003,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song003,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song003,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song004,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song004,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song004,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song004,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song004,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song004,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song005,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song005,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song005,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song005,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song005,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song005,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song006,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song006,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song006,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song006,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song006,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song006,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song007,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song007,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song007,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song007,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song007,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song007,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song008,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song008,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song008,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song008,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song008,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song008,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song009,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song009,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song009,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song009,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song009,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song009,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song010,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song010,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song010,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song010,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song010,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song010,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song011,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song011,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song011,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song011,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song011,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song011,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song012,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song012,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song012,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song012,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song012,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song012,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song013,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song013,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song013,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song013,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song013,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song013,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song014,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song014,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song014,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song014,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song014,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song014,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song015,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song015,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song015,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song015,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song015,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song015,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song016,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song016,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song016,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song016,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song016,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song016,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song017,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song017,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song017,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song017,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song017,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song017,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song018,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song018,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song018,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song018,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song018,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song018,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song019,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song019,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song019,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song019,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song019,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song019,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song020,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song020,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song020,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song020,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song020,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song020,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song021,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song021,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song021,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song021,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song021,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song021,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song022,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song022,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song022,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song022,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song022,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song022,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song023,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song023,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song023,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song023,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song023,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song023,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song024,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song024,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song024,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song024,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song024,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song024,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song025,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song025,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song025,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song025,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song025,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song025,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song026,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song026,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song026,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song026,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song026,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song026,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song027,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song027,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song027,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song027,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song027,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song027,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song028,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song028,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song028,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song028,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song028,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song028,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song029,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song029,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song029,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song029,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song029,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song029,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song030,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song030,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song030,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song030,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song030,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song030,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song031,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song031,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song031,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song031,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song031,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song031,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song032,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song032,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song032,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song032,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song032,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song032,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song033,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song033,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song033,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song033,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song033,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song033,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song034,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song034,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song034,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song034,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song034,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song034,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song035,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song035,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song035,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song035,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song035,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song035,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song036,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song036,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song036,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song036,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song036,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song036,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song037,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song037,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song037,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song037,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song037,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song037,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song038,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song038,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song038,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song038,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song038,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song038,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song039,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song039,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song039,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song039,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song039,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song039,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song040,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song040,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song040,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song040,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song040,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song040,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song041,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song041,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song041,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song041,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song041,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song041,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song042,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song042,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song042,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song042,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song042,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song042,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song043,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song043,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song043,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song043,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song043,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song043,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song044,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song044,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song044,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song044,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song044,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song044,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song045,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song045,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song045,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song045,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song045,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song045,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song046,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song046,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song046,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song046,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song046,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song046,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song047,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song047,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song047,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song047,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song047,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song047,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song048,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song048,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song048,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song048,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song048,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
+song048,vad48_2b,B,ACE-Step 1.5,2B (acestep-v15-turbo),off,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=384
 song001,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song001,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song001,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song001,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song001,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song001,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song002,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song002,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song002,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song002,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song002,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song002,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song003,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song003,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song003,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song003,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song003,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song003,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song004,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song004,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song004,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song004,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song004,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song004,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song005,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song005,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song005,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song005,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song005,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song005,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song006,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song006,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song006,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song006,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song006,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song006,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song007,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song007,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song007,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song007,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song007,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song007,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song008,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song008,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song008,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song008,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song008,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song008,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song009,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song009,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song009,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song009,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song009,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song009,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song010,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song010,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song010,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song010,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song010,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song010,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song011,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song011,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song011,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song011,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song011,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song011,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song012,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song012,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song012,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song012,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song012,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song012,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song013,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song013,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song013,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song013,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song013,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song013,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song014,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song014,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song014,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song014,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song014,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song014,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song015,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song015,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song015,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song015,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song015,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song015,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song016,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song016,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song016,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song016,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song016,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song016,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song017,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song017,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song017,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song017,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song017,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song017,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song018,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song018,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song018,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song018,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song018,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song018,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song019,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song019,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song019,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song019,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song019,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song019,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song020,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song020,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song020,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song020,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song020,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song020,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song021,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song021,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song021,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song021,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song021,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song021,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song022,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song022,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song022,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song022,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song022,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song022,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song023,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song023,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song023,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song023,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song023,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song023,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song024,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song024,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song024,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song024,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song024,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song024,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song025,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song025,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song025,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song025,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song025,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song025,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song026,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song026,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song026,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song026,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song026,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song026,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song027,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song027,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song027,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song027,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song027,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song027,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song028,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song028,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song028,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song028,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song028,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song028,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song029,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song029,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song029,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song029,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song029,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song029,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song030,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song030,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song030,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song030,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song030,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song030,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song031,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song031,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song031,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song031,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song031,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song031,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song032,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song032,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song032,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song032,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song032,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song032,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song033,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song033,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song033,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song033,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song033,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song033,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song034,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song034,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song034,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song034,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song034,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song034,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song035,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song035,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song035,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song035,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song035,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song035,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song036,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song036,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song036,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song036,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song036,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song036,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song037,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song037,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song037,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song037,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song037,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song037,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song038,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song038,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song038,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song038,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song038,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song038,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song039,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song039,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song039,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song039,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song039,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song039,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song040,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song040,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song040,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song040,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song040,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song040,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song041,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song041,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song041,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song041,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song041,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song041,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song042,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song042,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song042,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song042,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song042,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song042,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song043,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song043,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song043,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song043,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song043,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song043,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song044,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song044,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song044,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song044,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song044,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song044,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song045,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song045,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song045,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song045,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song045,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song045,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song046,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song046,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song046,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song046,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song046,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song046,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song047,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song047,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song047,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song047,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song047,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song047,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song048,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,1,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song048,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,2,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song048,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,3,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song048,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,4,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song048,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,5,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
+song048,vad48_2b,C,ACE-Step 1.5,2B (acestep-v15-turbo),on,6,120,dit=acestep-v15-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=256
 song001,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,1,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
 song001,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,2,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
 song001,vad48_diffrhythm,D,DiffRhythm,DiffRhythm-1_2-full,n/a,3,120,model=ASLP-lab/DiffRhythm-1_2-full@2aea17a3cf7072e0933f15be3a01e762a5c7fbe9; vae=ASLP-lab/DiffRhythm-vae@74e2afacfd91dd1b96662c96dcef763c1258768b; style_encoder=OpenMuQ/MuQ-MuLan-large@2e01c796b71dca71b45251384c04cd7b237c9020; code=github ASLP-lab/DiffRhythm@28ad63c0f096fe2ee258bcabbcf081d5d9366afd; steps=32; cfg_strength=4.0; audio_length=120; dtype=fp16
@@ -769,193 +1153,577 @@ song048,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,3,120,generate_type=mixed;
 song048,vad48_levo,L,LeVo,SongGeneration v2-large,n/a,4,120,generate_type=mixed; low-memory mode
 song001,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song001,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song001,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song001,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song001,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song001,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song002,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song002,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song002,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song002,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song002,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song002,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song003,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song003,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song003,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song003,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song003,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song003,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song004,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song004,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song004,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song004,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song004,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song004,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song005,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song005,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song005,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song005,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song005,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song005,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song006,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song006,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song006,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song006,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song006,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song006,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song007,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song007,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song007,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song007,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song007,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song007,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song008,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song008,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song008,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song008,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song008,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song008,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song009,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song009,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song009,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song009,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song009,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song009,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song010,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song010,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song010,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song010,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song010,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song010,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song011,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song011,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song011,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song011,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song011,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song011,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song012,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song012,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song012,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song012,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song012,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song012,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song013,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song013,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song013,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song013,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song013,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song013,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song014,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song014,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song014,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song014,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song014,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song014,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song015,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song015,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song015,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song015,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song015,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song015,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song016,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song016,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song016,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song016,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song016,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song016,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song017,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song017,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song017,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song017,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song017,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song017,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song018,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song018,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song018,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song018,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song018,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song018,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song019,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song019,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song019,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song019,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song019,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song019,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song020,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song020,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song020,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song020,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song020,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song020,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song021,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song021,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song021,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song021,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song021,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song021,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song022,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song022,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song022,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song022,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song022,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song022,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song023,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song023,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song023,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song023,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song023,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song023,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song024,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song024,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song024,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song024,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song024,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song024,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song025,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song025,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song025,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song025,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song025,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song025,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song026,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song026,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song026,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song026,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song026,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song026,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song027,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song027,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song027,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song027,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song027,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song027,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song028,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song028,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song028,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song028,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song028,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song028,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song029,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song029,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song029,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song029,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song029,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song029,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song030,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song030,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song030,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song030,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song030,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song030,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song031,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song031,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song031,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song031,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song031,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song031,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song032,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song032,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song032,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song032,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song032,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song032,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song033,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song033,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song033,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song033,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song033,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song033,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song034,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song034,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song034,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song034,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song034,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song034,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song035,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song035,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song035,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song035,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song035,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song035,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song036,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song036,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song036,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song036,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song036,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song036,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song037,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song037,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song037,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song037,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song037,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song037,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song038,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song038,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song038,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song038,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song038,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song038,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song039,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song039,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song039,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song039,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song039,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song039,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song040,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song040,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song040,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song040,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song040,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song040,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song041,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song041,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song041,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song041,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song041,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song041,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song042,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song042,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song042,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song042,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song042,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song042,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song043,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song043,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song043,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song043,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song043,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song043,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song044,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song044,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song044,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song044,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song044,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song044,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song045,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song045,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song045,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song045,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song045,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song045,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song046,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song046,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song046,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song046,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song046,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song046,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song047,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song047,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song047,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song047,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song047,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song047,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song048,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
 song048,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0
+song048,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song048,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song048,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
+song048,vad48_xl,B,ACE-Step 1.5,XL (acestep-v15-xl-turbo),off,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=none; planner_codes=0; vae_decode_tile=128
 song001,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song001,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song001,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song001,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song001,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song001,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song002,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song002,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song002,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song002,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song002,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song002,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song003,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song003,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song003,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song003,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song003,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song003,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song004,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song004,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song004,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song004,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song004,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song004,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song005,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song005,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song005,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song005,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song005,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song005,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song006,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song006,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song006,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song006,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song006,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song006,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song007,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song007,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song007,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song007,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song007,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song007,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song008,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song008,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song008,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song008,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song008,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song008,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song009,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song009,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song009,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song009,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song009,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song009,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song010,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song010,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song010,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song010,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song010,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song010,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song011,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song011,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song011,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song011,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song011,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song011,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song012,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song012,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song012,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song012,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song012,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song012,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song013,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song013,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song013,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song013,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song013,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song013,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song014,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song014,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song014,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song014,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song014,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song014,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song015,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song015,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song015,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song015,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song015,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song015,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song016,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song016,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song016,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song016,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song016,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song016,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song017,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song017,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song017,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song017,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song017,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song017,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song018,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song018,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song018,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song018,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song018,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song018,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song019,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song019,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song019,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song019,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song019,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song019,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song020,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song020,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song020,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song020,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song020,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song020,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song021,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song021,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song021,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song021,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song021,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song021,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song022,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song022,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song022,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song022,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song022,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song022,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song023,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song023,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song023,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song023,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song023,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song023,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song024,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song024,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song024,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song024,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song024,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song024,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song025,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song025,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song025,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song025,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song025,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song025,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song026,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song026,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song026,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song026,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song026,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song026,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song027,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song027,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song027,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song027,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song027,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song027,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song028,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song028,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song028,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song028,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song028,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song028,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song029,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song029,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song029,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song029,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song029,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song029,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song030,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song030,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song030,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song030,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song030,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song030,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song031,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song031,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song031,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song031,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song031,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song031,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song032,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song032,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song032,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song032,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song032,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song032,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song033,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song033,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song033,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song033,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song033,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song033,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song034,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song034,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song034,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song034,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song034,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song034,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song035,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song035,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song035,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song035,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song035,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song035,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song036,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song036,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song036,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song036,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song036,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song036,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song037,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song037,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song037,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song037,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song037,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song037,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song038,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song038,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song038,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song038,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song038,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song038,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song039,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song039,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song039,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song039,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song039,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song039,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song040,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song040,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song040,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song040,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song040,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song040,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song041,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song041,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song041,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song041,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song041,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song041,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song042,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song042,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song042,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song042,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song042,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song042,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song043,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song043,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song043,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song043,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song043,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song043,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song044,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song044,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song044,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song044,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song044,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song044,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song045,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song045,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song045,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song045,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song045,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song045,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song046,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song046,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song046,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song046,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song046,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song046,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song047,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song047,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song047,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song047,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song047,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song047,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
 song048,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,1,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
 song048,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,2,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600
+song048,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,3,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song048,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,4,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song048,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,5,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128
+song048,vad48_xl,C,ACE-Step 1.5,XL (acestep-v15-xl-turbo),on,6,120,dit=acestep-v15-xl-turbo; ace_step_commit=ca1e85f; planner_lm=acestep-5Hz-lm-1.7B; planner_codes=600; vae_decode_tile=128

@@ -35,6 +35,7 @@ def main():
                     continue
                 m, _ = librosa.load(str(w), sr=16000, mono=True, duration=120.0)
                 v, _ = librosa.load(str(vp), sr=16000, mono=True)
+                assert abs(len(m) - len(v)) <= 160, (w, len(m), len(v))   # vocals must be aligned and the same length as the mix
                 n = min(len(m), len(v)); m, v = m[:n], v[:n]; a = m - v
                 eps = 1e-10
                 vr = 10 * np.log10((np.mean(v ** 2) + eps) / (np.mean(a ** 2) + eps))

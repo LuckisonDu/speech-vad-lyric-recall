@@ -4,7 +4,7 @@
 Why: with VAD off, some generated songs still decode to non-lyrics ("Music", "Thank you.") and a
 fallback to VAD-on recovers almost none of them; removing the accompaniment was the candidate fix.
 All songs are processed (not only the flagged ones) so that we can also see whether normal songs get worse.
-Separator: torchaudio HDEMUCS_HIGH_MUSDB_PLUS, 20 s chunks with 2 s overlap.
+Separator: torchaudio HDEMUCS_HIGH_MUSDB_PLUS, 20 s chunks with 2 s left context (sep_util.py).
 ASR: faster-whisper large-v3, fp16, beam 1, language=en (same as exp_vad_gen.py);
      VAD off  -> input "vocals_novad";  VAD on (Silero default 0.5) -> input "vocals_vad" (+ dur_after_vad).
 Flagged songs (VAD off, < 0.5 recognised words per second in ../results/vad_gen48.csv) are processed first;
@@ -53,33 +53,12 @@ def main():
     import audio_io
     from faster_whisper import WhisperModel
 
-    b = torchaudio.pipelines.HDEMUCS_HIGH_MUSDB_PLUS
-    sep = b.get_model().eval().to(SEP_DEVICE)
-    sr_m = b.sample_rate
-    vi = sep.sources.index("vocals")
+    import sep_util
+    sep, sr_m, vi = sep_util.load_hdemucs(SEP_DEVICE)
 
     def separate(path, vp):
-        """Return 16 kHz mono vocals (float32); read the cached file if present."""
-        if vp.exists():
-            return audio_io.load_mono16k(vp)
-        w = torch.from_numpy(audio_io.load_stereo(path, sr_m, WIN_SEC))
-        ref = w.mean(0); w = (w - ref.mean()) / (ref.std() + 1e-8)
-        CH, OV = int(20.0 * sr_m), int(2.0 * sr_m)
-        out, pos = [], 0
-        while pos < w.shape[1]:
-            seg = w[:, pos: pos + CH + OV]
-            with torch.no_grad():
-                o = sep(seg.unsqueeze(0).to(SEP_DEVICE))[0].cpu()
-            v = o[vi]
-            if pos > 0:
-                v = v[:, OV:]
-            out.append(v[:, :CH] if pos + CH < w.shape[1] else v)
-            pos += CH
-        V = (torch.cat(out, 1).mean(0) * (ref.std() + 1e-8)).numpy()
-        v16 = audio_io.resample(V, sr_m, 16000)
-        vp.parent.mkdir(parents=True, exist_ok=True)
-        audio_io.write_wav16(vp, v16, 16000)
-        return audio_io.load_mono16k(vp)          # read back the saved file so fresh and resumed runs feed identical audio
+        """Return 16 kHz mono vocals (float32); read the cached file if present (sample-aligned chunking, see sep_util.py)."""
+        return sep_util.separate_cached(path, vp, sep, sr_m, vi, SEP_DEVICE, WIN_SEC)
 
     model = None
     if not SEP_ONLY:

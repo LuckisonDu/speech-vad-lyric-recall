@@ -233,21 +233,21 @@
  },
  "vocal_ratio_db_median": {
   "2B·B": {
-   "whole": -7.17,
-   "active": -5.56
+   "whole": -5.25,
+   "active": -2.46
   },
   "2B·C": {
-   "whole": -7.03,
-   "active": -5.5
+   "whole": -4.83,
+   "active": -2.37
   },
   "XL·B": {
-   "whole": -7.64,
-   "active": -6.22
+   "whole": -5.78,
+   "active": -3.61
   },
   "XL·C": {
-   "whole": -8.49,
-   "active": -7.13
+   "whole": -7.03,
+   "active": -4.98
   }
  },
- "spearman_vocalratio_vs_keptsec": 0.5336
+ "spearman_vocalratio_vs_keptsec": 0.5191
 }

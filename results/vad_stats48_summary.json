@@ -1,40 +1,40 @@
 {
  "per_system": {
   "2B·B": {
-   "n": 96,
-   "kept_sec_median": 21.43,
-   "kept_sec_mean": 25.78,
-   "kept_lt_10s": 28,
-   "kept_0s": 3,
+   "n": 288,
+   "kept_sec_median": 20.53,
+   "kept_sec_mean": 24.6,
+   "kept_lt_10s": 81,
+   "kept_0s": 15,
    "p_gt50_median": 0.0658,
-   "recall_off_median": 0.7082
+   "recall_off_median": 0.6939
   },
   "2B·C": {
-   "n": 96,
-   "kept_sec_median": 25.12,
-   "kept_sec_mean": 29.86,
-   "kept_lt_10s": 30,
-   "kept_0s": 8,
-   "p_gt50_median": 0.0712,
-   "recall_off_median": 0.8879
+   "n": 288,
+   "kept_sec_median": 24.34,
+   "kept_sec_mean": 29.31,
+   "kept_lt_10s": 85,
+   "kept_0s": 25,
+   "p_gt50_median": 0.0783,
+   "recall_off_median": 0.8917
   },
   "XL·B": {
-   "n": 96,
-   "kept_sec_median": 4.13,
-   "kept_sec_mean": 10.32,
-   "kept_lt_10s": 63,
-   "kept_0s": 23,
-   "p_gt50_median": 0.0066,
-   "recall_off_median": 0.8516
+   "n": 288,
+   "kept_sec_median": 5.1,
+   "kept_sec_mean": 10.15,
+   "kept_lt_10s": 183,
+   "kept_0s": 72,
+   "p_gt50_median": 0.0095,
+   "recall_off_median": 0.843
   },
   "XL·C": {
-   "n": 96,
-   "kept_sec_median": 3.85,
-   "kept_sec_mean": 11.36,
-   "kept_lt_10s": 62,
-   "kept_0s": 30,
-   "p_gt50_median": 0.0075,
-   "recall_off_median": 0.8629
+   "n": 288,
+   "kept_sec_median": 4.18,
+   "kept_sec_mean": 10.94,
+   "kept_lt_10s": 183,
+   "kept_0s": 84,
+   "p_gt50_median": 0.0073,
+   "recall_off_median": 0.8613
   },
   "orig": {
    "n": 48,
@@ -46,14 +46,14 @@
    "recall_off_median": 0.8793
   }
  },
- "gen_spearman_keptsec_vs_wordkeep": 0.8739,
- "gen_spearman_keptsec_vs_recall_on": 0.9489,
- "gen_spearman_keptsec_vs_recall_off": 0.1529,
+ "gen_spearman_keptsec_vs_wordkeep": 0.8724,
+ "gen_spearman_keptsec_vs_recall_on": 0.9427,
+ "gen_spearman_keptsec_vs_recall_off": 0.1897,
  "xlB_minus_2bB_kept_sec": {
-  "pairs": 96,
-  "mean": -15.46,
-  "median": -14.05,
-  "xl_less": 75,
-  "xl_more": 19
+  "pairs": 288,
+  "mean": -14.46,
+  "median": -11.22,
+  "xl_less": 232,
+  "xl_more": 50
  }
 }

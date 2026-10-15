@@ -1,135 +1,135 @@
 {
- "model": "recall_on ~ 1 + off + k + off*k (no system terms), fit on 768 songs",
+ "model": "recall_on ~ 1 + off + k + off*k (no system terms), fit on 1536 songs",
  "beta": [
-  0.0217,
-  0.0874,
-  0.349,
-  0.9492
+  0.0155,
+  0.0589,
+  0.5492,
+  0.7774
  ],
- "r2": 0.704,
- "r2_with_system_dummies": 0.73,
- "r2_system_and_off_without_kept": 0.368,
+ "r2": 0.751,
+ "r2_with_system_dummies": 0.768,
+ "r2_system_and_off_without_kept": 0.367,
  "residual_system_coef_vs_2B": {
-  "2B+pl": -0.0404,
-  "XL": -0.115,
-  "XL+pl": -0.0926,
-  "HeartMuLa": 0.0002,
-  "LeVo": 0.0485
+  "2B+pl": -0.0096,
+  "XL": -0.0753,
+  "XL+pl": -0.0586,
+  "HeartMuLa": 0.0222,
+  "LeVo": 0.0593
  },
  "pairs": {
   "XL − 2B": {
-   "observed_on_gap": -0.2,
-   "coverage_part": -0.138,
+   "observed_on_gap": -0.178,
+   "coverage_part": -0.137,
    "coverage_ci95": [
-    -0.177,
-    -0.1
+    -0.174,
+    -0.102
    ],
-   "intrinsic_part": 0.034,
-   "intrinsic_ci95": [
-    0.012,
-    0.056
-   ],
-   "residual": -0.095,
-   "residual_ci95": [
-    -0.135,
-    -0.054
-   ],
-   "coverage_share_of_gap": 0.69
-  },
-  "XL+pl − 2B": {
-   "observed_on_gap": -0.168,
-   "coverage_part": -0.128,
-   "coverage_ci95": [
-    -0.171,
-    -0.093
-   ],
-   "intrinsic_part": 0.034,
+   "intrinsic_part": 0.019,
    "intrinsic_ci95": [
     0.006,
-    0.064
+    0.033
    ],
-   "residual": -0.075,
+   "residual": -0.06,
    "residual_ci95": [
-    -0.115,
-    -0.032
+    -0.086,
+    -0.033
    ],
-   "coverage_share_of_gap": 0.76
+   "coverage_share_of_gap": 0.77
+  },
+  "XL+pl − 2B": {
+   "observed_on_gap": -0.154,
+   "coverage_part": -0.131,
+   "coverage_ci95": [
+    -0.166,
+    -0.099
+   ],
+   "intrinsic_part": 0.022,
+   "intrinsic_ci95": [
+    0.008,
+    0.036
+   ],
+   "residual": -0.044,
+   "residual_ci95": [
+    -0.071,
+    -0.015
+   ],
+   "coverage_share_of_gap": 0.85
   },
   "XL − 2B+pl": {
-   "observed_on_gap": -0.258,
-   "coverage_part": -0.174,
+   "observed_on_gap": -0.25,
+   "coverage_part": -0.182,
    "coverage_ci95": [
-    -0.223,
-    -0.128
+    -0.228,
+    -0.14
    ],
-   "intrinsic_part": -0.03,
+   "intrinsic_part": -0.02,
    "intrinsic_ci95": [
-    -0.055,
-    -0.011
+    -0.033,
+    -0.009
    ],
-   "residual": -0.053,
+   "residual": -0.048,
    "residual_ci95": [
-    -0.09,
-    -0.019
+    -0.074,
+    -0.022
    ],
-   "coverage_share_of_gap": 0.68
+   "coverage_share_of_gap": 0.73
   },
   "XL+pl − 2B+pl": {
    "observed_on_gap": -0.226,
-   "coverage_part": -0.168,
+   "coverage_part": -0.175,
    "coverage_ci95": [
-    -0.209,
-    -0.133
+    -0.214,
+    -0.138
    ],
-   "intrinsic_part": -0.025,
+   "intrinsic_part": -0.02,
    "intrinsic_ci95": [
-    -0.051,
-    -0.004
+    -0.034,
+    -0.008
    ],
    "residual": -0.032,
    "residual_ci95": [
-    -0.056,
-    -0.007
+    -0.05,
+    -0.012
    ],
-   "coverage_share_of_gap": 0.75
+   "coverage_share_of_gap": 0.77
   },
   "LeVo − HeartMuLa": {
    "observed_on_gap": 0.06,
-   "coverage_part": 0.054,
+   "coverage_part": 0.056,
    "coverage_ci95": [
     0.007,
-    0.1
+    0.104
    ],
-   "intrinsic_part": -0.033,
+   "intrinsic_part": -0.026,
    "intrinsic_ci95": [
-    -0.051,
-    -0.018
+    -0.042,
+    -0.014
    ],
-   "residual": 0.04,
+   "residual": 0.03,
    "residual_ci95": [
-    0.008,
-    0.069
+    -0.001,
+    0.06
    ],
-   "coverage_share_of_gap": 0.89
+   "coverage_share_of_gap": 0.94
   },
   "LeVo − 2B+pl": {
-   "observed_on_gap": 0.191,
-   "coverage_part": 0.138,
+   "observed_on_gap": 0.205,
+   "coverage_part": 0.158,
    "coverage_ci95": [
-    0.088,
-    0.195
+    0.109,
+    0.216
    ],
-   "intrinsic_part": -0.016,
+   "intrinsic_part": -0.011,
    "intrinsic_ci95": [
-    -0.036,
-    0.001
+    -0.025,
+    0.002
    ],
-   "residual": 0.069,
+   "residual": 0.057,
    "residual_ci95": [
-    0.027,
-    0.11
+    0.016,
+    0.094
    ],
-   "coverage_share_of_gap": 0.72
+   "coverage_share_of_gap": 0.77
   }
  }
 }

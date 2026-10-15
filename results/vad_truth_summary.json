@@ -29,11 +29,11 @@
    "median_dur": 220.35
   },
   "voc_default": {
-   "words_dropped_pooled": 0.1992,
-   "median_song_frac_dropped": 0.17425000000000002,
+   "words_dropped_pooled": 0.1598,
+   "median_song_frac_dropped": 0.1283,
    "songs_over_20pct": 6,
-   "median_kept_sec": 123.1,
-   "median_dur": 218.35
+   "median_kept_sec": 123.9,
+   "median_dur": 220.35
   }
  }
 }

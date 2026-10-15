@@ -3,36 +3,36 @@
  "kept_median": {
   "2B": {
    "silero_mix": 21.43,
-   "silero_hdemucs": 57.95,
+   "silero_hdemucs": 58.33,
    "silero_htft": 57.76,
-   "energy_hdemucs": 80.47,
+   "energy_hdemucs": 81.74,
    "energy_htft": 79.55,
    "silero_remix05_htft": 47.18,
    "n": 96
   },
   "2B+P": {
    "silero_mix": 25.12,
-   "silero_hdemucs": 62.02,
+   "silero_hdemucs": 65.6,
    "silero_htft": 63.42,
-   "energy_hdemucs": 85.29,
+   "energy_hdemucs": 88.03,
    "energy_htft": 88.11,
    "silero_remix05_htft": 47.57,
    "n": 96
   },
   "XL": {
    "silero_mix": 4.13,
-   "silero_hdemucs": 59.22,
+   "silero_hdemucs": 61.46,
    "silero_htft": 61.14,
-   "energy_hdemucs": 97.79,
+   "energy_hdemucs": 99.47,
    "energy_htft": 96.6,
    "silero_remix05_htft": 41.59,
    "n": 96
   },
   "XL+P": {
    "silero_mix": 3.85,
-   "silero_hdemucs": 57.22,
+   "silero_hdemucs": 58.98,
    "silero_htft": 57.31,
-   "energy_hdemucs": 88.66,
+   "energy_hdemucs": 89.59,
    "energy_htft": 87.54,
    "silero_remix05_htft": 30.75,
    "n": 96
@@ -42,8 +42,8 @@
   "2B": {
    "mix_off": 0.6501,
    "mix_on": 0.311,
-   "hd_vocals_vad": 0.5927,
-   "hd_egate": 0.5727,
+   "hd_vocals_vad": 0.6132,
+   "hd_egate": 0.6766,
    "ht_vocals_vad": 0.6123,
    "ht_egate": 0.691,
    "ht_remix05_vad": 0.5176
@@ -51,8 +51,8 @@
   "2B+P": {
    "mix_off": 0.8139,
    "mix_on": 0.3688,
-   "hd_vocals_vad": 0.7083,
-   "hd_egate": 0.7106,
+   "hd_vocals_vad": 0.7274,
+   "hd_egate": 0.8293,
    "ht_vocals_vad": 0.7243,
    "ht_egate": 0.8317,
    "ht_remix05_vad": 0.5915
@@ -60,8 +60,8 @@
   "XL": {
    "mix_off": 0.7301,
    "mix_on": 0.1111,
-   "hd_vocals_vad": 0.6744,
-   "hd_egate": 0.6957,
+   "hd_vocals_vad": 0.6892,
+   "hd_egate": 0.8032,
    "ht_vocals_vad": 0.6908,
    "ht_egate": 0.8376,
    "ht_remix05_vad": 0.4678
@@ -69,8 +69,8 @@
   "XL+P": {
    "mix_off": 0.7456,
    "mix_on": 0.1427,
-   "hd_vocals_vad": 0.6516,
-   "hd_egate": 0.7171,
+   "hd_vocals_vad": 0.6877,
+   "hd_egate": 0.811,
    "ht_vocals_vad": 0.6825,
    "ht_egate": 0.8262,
    "ht_remix05_vad": 0.4304
@@ -97,19 +97,19 @@
     "sig": "-"
    },
    "hd_vocals_vad": {
-    "d": 0.082,
+    "d": 0.076,
     "ci": [
-     0.031,
-     0.128
+     0.019,
+     0.129
     ],
     "n_lyrics": 48,
     "sig": "+"
    },
    "hd_egate": {
-    "d": 0.123,
+    "d": 0.127,
     "ci": [
-     0.052,
-     0.19
+     0.074,
+     0.176
     ],
     "n_lyrics": 48,
     "sig": "+"
@@ -162,19 +162,19 @@
     "sig": "-"
    },
    "hd_vocals_vad": {
-    "d": -0.057,
+    "d": -0.04,
     "ci": [
-     -0.097,
-     -0.015
+     -0.087,
+     0.009
     ],
     "n_lyrics": 48,
-    "sig": "-"
+    "sig": "0"
    },
    "hd_egate": {
-    "d": 0.007,
+    "d": -0.018,
     "ci": [
-     -0.048,
-     0.06
+     -0.074,
+     0.028
     ],
     "n_lyrics": 48,
     "sig": "0"
@@ -227,19 +227,19 @@
     "sig": "-"
    },
    "hd_vocals_vad": {
-    "d": 0.059,
+    "d": 0.074,
     "ci": [
-     -0.01,
-     0.122
+     0.005,
+     0.14
     ],
     "n_lyrics": 48,
-    "sig": "0"
+    "sig": "+"
    },
    "hd_egate": {
-    "d": 0.144,
+    "d": 0.134,
     "ci": [
-     0.067,
-     0.217
+     0.066,
+     0.196
     ],
     "n_lyrics": 48,
     "sig": "+"
@@ -292,19 +292,19 @@
     "sig": "-"
    },
    "hd_vocals_vad": {
-    "d": -0.034,
+    "d": -0.038,
     "ci": [
-     -0.082,
-     0.012
+     -0.087,
+     0.009
     ],
     "n_lyrics": 48,
     "sig": "0"
    },
    "hd_egate": {
-    "d": -0.015,
+    "d": -0.026,
     "ci": [
-     -0.089,
-     0.057
+     -0.063,
+     0.01
     ],
     "n_lyrics": 48,
     "sig": "0"
@@ -357,19 +357,19 @@
     "sig": "+"
    },
    "hd_vocals_vad": {
-    "d": 0.116,
+    "d": 0.114,
     "ci": [
-     0.054,
-     0.173
+     0.056,
+     0.168
     ],
     "n_lyrics": 48,
     "sig": "+"
    },
    "hd_egate": {
-    "d": 0.138,
+    "d": 0.153,
     "ci": [
-     0.063,
-     0.209
+     0.092,
+     0.21
     ],
     "n_lyrics": 48,
     "sig": "+"
@@ -422,19 +422,19 @@
     "sig": "0"
    },
    "hd_vocals_vad": {
-    "d": -0.023,
+    "d": -0.002,
     "ci": [
-     -0.077,
-     0.029
+     -0.057,
+     0.052
     ],
     "n_lyrics": 48,
     "sig": "0"
    },
    "hd_egate": {
-    "d": 0.021,
+    "d": 0.008,
     "ci": [
-     -0.055,
-     0.098
+     -0.049,
+     0.059
     ],
     "n_lyrics": 48,
     "sig": "0"
@@ -470,13 +470,13 @@
  },
  "separator_agreement_per_song": {
   "silero": {
-   "pearson_r": 0.982,
-   "median_abs_diff_sec": 2.3,
+   "pearson_r": 0.984,
+   "median_abs_diff_sec": 1.98,
    "n": 384
   },
   "energy": {
    "pearson_r": 0.946,
-   "median_abs_diff_sec": 2.05,
+   "median_abs_diff_sec": 1.8,
    "n": 384
   }
  },

@@ -3,7 +3,7 @@
 different amounts of audio (the measuring tool), and how much from the song itself being intelligible
 (the VAD-off score).
 
-Model (no system labels; fitted on all 768 songs from three families):
+Model (no system labels; fitted on all 1536 songs (key = system x song x seed) from three families):
     recall_on = b0 + b1*off + b2*k + b3*off*k,   off = VAD-off recall, k = VAD kept seconds / 120 (clipped to [0,1])
 For a system pair A - B (paired by song and seed), split the VAD-on gap with the fitted f:
     coverage part  = mean f(off_A, k_A) - f(off_A, k_B)   (only A's kept seconds swapped for B's)
@@ -26,7 +26,8 @@ RESULTS_DIR = Path(__file__).resolve().parent.parent / "results"   # folder hold
 CROP_SEC = 120.0    # length of the analysed crop; k = kept_sec / CROP_SEC, capped at 1
 N_BOOT = 2000       # cluster-bootstrap resamples (each one refits the model)
 BOOT_SEED = 101     # bootstrap RNG seed
-SEEDS = ("1", "2", "3", "4")   # generation seeds; missing ones are skipped
+SEEDS = ("1", "2", "3", "4", "5", "6")   # generation seeds; ACE-Step has 1-6, HeartMuLa / LeVo have 1-4, missing combinations are skipped
+N_EXPECT = 4 * 48 * 6 + 2 * 48 * 4       # = 1536: ACE-Step 4 configurations x 288 + HeartMuLa / LeVo 192 each
 # =====================
 
 R = RESULTS_DIR
@@ -43,7 +44,7 @@ for fn in ("vad_stats48.csv", "vad_stats48_heart_levo.csv"):
         if r["src"] == "gen":
             kept[(SYS[(r["exp"], r["arm"])], r["song"], r["seed"])] = min(1.0, float(r["kept_sec"]) / CROP_SEC)
 keys = sorted(k for k in rec if k in kept)
-assert len(keys) == 768, len(keys)   # 4 ACE configs x 96 + HeartMuLa / LeVo 192 each (4 seeds)
+assert len(keys) == N_EXPECT, len(keys)   # 4 ACE configs x 288 + HeartMuLa / LeVo 192 each
 songs = sorted({k[1] for k in keys})
 names = list(SYS.values())
 

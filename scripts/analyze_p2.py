@@ -17,13 +17,15 @@ from pathlib import Path
 # ===== Edit here =====
 RESULTS_DIR = Path(__file__).resolve().parent.parent / "results"   # folder holding the result CSV/JSON files
 WPS, WIN = 0.5, 120.0   # flag threshold in words per second; window length in seconds
+ACE_SEEDS = ("1", "2")  # vad_gen48.csv has ACE-Step seeds 1-6, but sep_redecode48.csv (re-recognition on separated vocals, needed for P2) only has seeds 1 and 2;
+                        # P0 / P1 / P2 must be compared on the same songs, so only seeds 1 and 2 are used
 # =====================
 
 R = RESULTS_DIR
 SYS = {("vad48_2b", "B"): "2B·B", ("vad48_2b", "C"): "2B·C", ("vad48_xl", "B"): "XL·B", ("vad48_xl", "C"): "XL·C"}
 G = defaultdict(dict)
 for r in csv.DictReader(open(R / "vad_gen48.csv")):
-    if r["src"] == "gen":
+    if r["src"] == "gen" and r["seed"] in ACE_SEEDS:
         G[(r["exp"], r["arm"], r["song"], r["seed"])][r["vad"]] = r
 V = {(r["exp"], r["arm"], r["song"], r["seed"]): r for r in csv.DictReader(open(R / "sep_redecode48.csv"))}
 

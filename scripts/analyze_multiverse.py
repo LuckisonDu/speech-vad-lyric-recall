@@ -30,6 +30,8 @@ N_BOOT = 20000      # bootstrap resamples
 BOOT_SEED = 101     # bootstrap RNG seed
 P2_RATE = 0.5       # P2 rule: words per second below which the vocals re-decode is used
 CROP_SEC = 120      # length of the analysed crop in seconds
+ACE_SEEDS = ("1", "2")   # vad_gen48.csv has ACE-Step seeds 1-6, but the other pipelines (sep_redecode48, tool_*.csv) only have seeds 1 and 2;
+                         # the 20 settings must be compared on the same 384 songs, so only seeds 1 and 2 are used (the assert on 384 below relies on this)
 # =====================
 
 R = RESULTS_DIR
@@ -44,7 +46,7 @@ def put(pipe, r, rec, w):
 
 off = {}
 for r in csv.DictReader(open(R / "vad_gen48.csv")):
-    if r["src"] != "gen":
+    if r["src"] != "gen" or r["seed"] not in ACE_SEEDS:
         continue
     put("fw VAD off" if r["vad"] == "False" else "fw VAD 0.5", r, r["recall"], r["wer"])
     if r["vad"] == "False":
@@ -70,8 +72,8 @@ IDX = rng.integers(0, len(songs), size=(N_BOOT, len(songs)))   # all cells share
 
 
 def score(pipe, metric, sysn, song):
-    v = [data[pipe][(sysn, song, sd)][metric] for sd in ("1", "2")]
-    x = sum(v) / 2
+    v = [data[pipe][(sysn, song, sd)][metric] for sd in ACE_SEEDS]
+    x = sum(v) / len(v)
     return x if metric == "recall" else -x                        # negate WER so that larger is better
 
 

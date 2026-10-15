@@ -264,6 +264,42 @@ for sz, m in (("2B", "TwoB"), ("XL", "XL")):
     put(f"LWhy{m}Masked", rb[sz]["masked"], "{}"); put(f"LWhy{m}NotMost", rb[sz]["not_most"], "{}")
     put(f"LWhy{m}MaskedPct", 100 * rb[sz]["masked_share_of_all"], "{:.0f}")
 
+# ---------- Third listening test (listen3_summary.json, analyze_listen3.py; analysis plan fixed before the answers were collected) ----------
+l3 = J("listen3_summary.json"); l3p1 = l3["part1"]["table"]; l3p3 = l3["part3"]
+put("LThreeRaters", len(l3["raters"]), "{}")
+put("LThreeClips", sum(v["n_clips"] for k, v in l3p1.items() if k.startswith("all40|") and k.endswith("|pooled")), "{}")
+put("LThreeDiscClips", l3p1["all40|disc|pooled"]["n_clips"], "{}")
+put("LThreeDiscAB", l3p1["all40|disc|pooled"]["AB_prop"], "{:.2f}")
+put("LThreeDiscABExcl", l3p1["excl_q08_q13|disc|pooled"]["AB_prop"], "{:.2f}")
+put("LThreeDiscABTwoB", l3p1["all40|disc|2B"]["AB_prop"], "{:.2f}"); put("LThreeDiscABXL", l3p1["all40|disc|XL"]["AB_prop"], "{:.2f}")
+put("LThreeKeptAB", l3p1["all40|kept|pooled"]["AB_prop"], "{:.2f}")
+put("LThreeCtrlNone", l3p1["all40|ctrl|pooled"]["C"], "{}"); put("LThreeCtrlN", l3p1["all40|ctrl|pooled"]["n_ans"], "{}")
+put("LThreePairs", l3p3["main"]["pref"]["all"]["n_pairs"], "{}")
+for k, m in (("A_XL", "XL"), ("tie", "Tie"), ("B_2B", "TwoB")):
+    put(f"LThreeShare{m}", 100 * l3p3["main"]["answers"][k] / l3p3["main"]["answers"]["n"], "{:.0f}")
+put("LThreePref", sgn(l3p3["main"]["pref"]["all"]["mean"], "{:+.2f}"), None); put("LThreePrefCI", ci(l3p3["main"]["pref"]["all"]["ci"], "{:+.2f}"), None)
+put("LThreePrefLOne", sgn(l3p3["per_rater"]["L1"]["pref"]["all"]["mean"], "{:+.2f}"), None)
+
+# ---- Part 2 and Part 3 additions (part2 of listen3_summary.json, listen3_part3_extra.json) ----
+_p2 = l3["part2"]; _w = _p2["main_new4_vs_old4"]["wins"]
+put("LTwoXLMean", _p2["xl_mean_rating_new4"], "{:.2f}"); put("LTwoBMean", _p2["b2_mean_rating_old4_same25"], "{:.2f}")
+put("LTwoDiff", sgn(_p2["main_new4_vs_old4"]["diff"]["all"]["mean"], "{:+.2f}"), None); put("LTwoDiffCI", ci(_p2["main_new4_vs_old4"]["diff"]["all"]["ci"], "{:+.2f}"), None)
+put("LTwoWinXL", _w["xl_higher"], "{}"); put("LTwoWinB", _w["b2_higher"], "{}"); put("LTwoWinEq", _w["equal"], "{}")
+put("LTwoSignP", _w["sign_test_p"], "{:.2f}")
+_x3 = J("listen3_part3_extra.json")
+put("LThreeSignP", pv(_x3["filters"]["a_all"]["sign_test_answers_p"]), None)
+put("LThreeFleiss", _x3["agreement_all"]["fleiss_kappa"], "{:.2f}")
+put("LThreeMajXL", _x3["filters"]["a_all"]["pair_majority"]["A"], "{}"); put("LThreeMajTie", _x3["filters"]["a_all"]["pair_majority"]["tie"], "{}"); put("LThreeMajB", _x3["filters"]["a_all"]["pair_majority"]["B"], "{}")
+put("LThreePrefLOneN", l3p3["per_rater"]["L1"]["answers"]["n"], "{}")
+_do = l3p3["main"]["direction_vs_d_off"]["all"]; _dn = l3p3["main"]["direction_vs_d_on"]["all"]
+put("LThreeOffAgree", _do["agree"], "{}"); put("LThreeOffNonTie", _do["agree"] + _do["disagree"], "{}")
+put("LThreeOnDisagree", _dn["disagree"], "{}"); put("LThreeOnNonTie", _dn["agree"] + _dn["disagree"], "{}")
+_sm = l3p3["heard"]["sec_median_by_rater"]; assert all(l3p3["heard"]["median_heard_by_rater"][r] == [0.0, 0.0] for r in ("L2", "L3", "L4"))
+assert all(l3p3["heard"]["plays_zero_by_rater"][r] == 25 for r in ("L2", "L3", "L4"))
+put("LThreeSecMin", min(_sm[r] for r in ("L2", "L3", "L4")), "{:.0f}"); put("LThreeSecMax", max(_sm[r] for r in ("L2", "L3", "L4")), "{:.0f}")
+put("LThreeAnsLow", l3p3["heard"]["either_lt15"], "{}"); assert l3p3["heard"]["either_lt15"] == 3 * 25 and l3p3["heard"]["either_lt15_by_rater"]["L1"] == 0
+
+
 # ---------- WhisperX across families (exploratory) ----------
 wxs = J("whisperx_families_summary.json")
 put("WxLevoRankOff", wxs["rank_vad_off"].index("LeVo") + 1, "{}"); put("WxLevoRankWx", wxs["rank_whisperx"].index("LeVo") + 1, "{}")
@@ -309,7 +345,7 @@ put("EgKeptMin", min(ks), "{:.0f}"); put("EgKeptMax", max(ks), "{:.0f}")
 v = eg["pairs"]["XL - 2B"]["energy"]; put("EgXLBvTwoBBD", sgn(v["d"]), None); put("EgXLBvTwoBBCI", ci(v["ci"]), None)
 v = eg["pairs"]["LeVo - HeartMuLa"]["energy"]; put("EgLvHD", sgn(v["d"]), None); put("EgLvHCI", ci(v["ci"]), None)
 put("EgContra", eg["contradictions_vs_off"], "{}"); put("EgPairs", len(eg["pairs"]), "{}")
-put("EgTruthDrop", 100 * eg["truth"]["words_dropped_pooled"], "{:.0f}")
+put("EgTruthDrop", 100 * eg["truth"]["words_dropped_pooled"], "{:.1f}")   # one decimal: about 0.07% after the separation fix, rounding to an integer would print 0
 
 # ---------- Fourth family DiffRhythm (energy_gate_summary.json) ----------
 dr = eg["pairs"]
@@ -338,6 +374,7 @@ put("DemoSunoKept", su["median_kept_on"], "{:.1f}"); put("DemoSunoDur", su["medi
 put("DemoSunoOff", su["recall_off"], "{:.2f}"); put("DemoSunoOn", su["recall_on"], "{:.2f}"); put("DemoSunoEg", su["recall_energy"], "{:.2f}")
 put("DemoTauOff", dm["rank"]["kendall_vs_paper_recall_off"], "{:.2f}"); put("DemoTauOn", dm["rank"]["kendall_vs_paper_recall_on"], "{:.2f}")
 put("DemoSunoRankOff", dm["rank"]["recall_off"].index("Suno") + 1, "{}"); put("DemoSunoRankOn", dm["rank"]["recall_on"].index("Suno") + 1, "{}")
+put("DemoSunoRankEg", dm["rank"]["recall_energy"].index("Suno") + 1, "{}"); put("DemoTauEg", dm["rank"]["kendall_vs_paper_recall_energy"], "{:.2f}")
 
 # ---------- Second separator htdemucs_ft (exp_sep2.py, analyze_sep2.py) ----------
 s2 = J("sep2_summary.json"); km = s2["kept_median"]
@@ -363,6 +400,24 @@ _sn = {"2B·B": "ACE 2B", "2B·C": "ACE 2B+planner", "XL·B": "ACE XL", "XL·C":
     f"{_sn.get(_k, _k)} & {_v['n']} & {_v['on']:.3f} & {_v['off']:.3f} \\\\".replace("-", "$-$") for _k, _v in _cf.items()) + "\n", encoding="utf-8")
 put("SysRhoOnMin", min(v["on"] for v in _cf.values())); put("SysRhoOnMax", max(v["on"] for v in _cf.values()))
 put("SysRhoOffMin", sgn(min(v["off"] for v in _cf.values())), None); put("SysRhoOffMax", sgn(max(v["off"] for v in _cf.values())), None)
+
+# ---------- Re-run noise: duplicate transcriptions of identical audio (analyze_rerun_noise.py -> rerun_noise_summary.json) ----------
+_rn = J("rerun_noise_summary.json")
+put("RerunN", _rn["off"]["n_dup"], "{}"); put("RerunSDOff", _rn["off"]["rerun_sd_per_song"]); put("RerunSDOn", _rn["on"]["rerun_sd_per_song"], "{:.4f}")
+put("RerunMeanNoiseOff", _rn["off"]["noise_sd_pair_mean"]); put("RerunRatioOff", int(_rn["off"]["effect_over_noise"]), "{}")
+
+# ---------- Singing-voice VAD control (exp_singing_vad.py, analyze_singing_vad.py -> singing_vad_summary.json, singing_vad_calib.json) ----------
+_sv = J("singing_vad_summary.json"); _sc = J("singing_vad_calib.json"); _svm = _sv["conds"]["main"]; _svs = _sv["segments"]["d1_cal"]
+put("SgTheta", _sc["theta_star"], "{:.2f}"); put("SgFOne", _sc["f1_by_threshold"][str(_sc["theta_star"])], "{:.2f}")
+put("SgLyrics", _svm["off"]["n_lyrics"], "{}"); put("SgPairs", _svm["off"]["n_lyrics"] * len(_svm["off"]["seeds"]), "{}")
+for _n, _k in [("Off", "off"), ("Sil", "silero"), ("Vad", "d1_cal"), ("Stem", "energy_gate_stem")]:
+    put(f"Sg{_n}D", sgn(_svm[_k]["xl_minus_2b_recall"]), None); put(f"Sg{_n}CI", ci(_svm[_k]["ci95"]), None)
+put("SgIntSilD", sgn(_svm["silero"]["interaction_vs_off"]), None); put("SgIntSilCI", ci(_svm["silero"]["interaction_ci95"]), None)
+put("SgIntVadD", sgn(_svm["d1_cal"]["interaction_vs_off"]), None); put("SgIntVadCI", ci(_svm["d1_cal"]["interaction_ci95"]), None)
+put("SgKeptSil", _svs["silero_kept_sec_median"], "{:.1f}"); put("SgKeptVad", _svs["kept_sec_median"], "{:.1f}")
+put("SgDiscSil", 100 * _svs["silero_disc_sing_frac_median"], "{:.0f}"); put("SgDiscVad", 100 * _svs["disc_sing_frac_median"], "{:.0f}")
+put("SgSingKeptSil", 100 * _svs["silero_sing_kept_recall_median"], "{:.0f}"); put("SgSingKeptVad", 100 * _svs["sing_kept_recall_median"], "{:.0f}")
+put("SgIoU", _svs["iou_discard_median"], "{:.2f}")
 
 (HERE / "numbers.tex").write_text("% Auto-generated by paper_numbers.py; do not edit\n" + "\n".join(out) + "\n")
 print(f"wrote {len(out)} macros -> {HERE / 'numbers.tex'}")

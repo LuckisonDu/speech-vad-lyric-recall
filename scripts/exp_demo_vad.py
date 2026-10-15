@@ -156,29 +156,11 @@ def run():
                 todo.append((demo, s["subset"], folder, s["uid"], root / demo / e["file"], root / demo / "lyrics" / f"{s['uid']}.txt"))
     print(f"{len(todo)} songs (x off/on/energy), {len(done)} rows already done", flush=True)
     model = WhisperModel("large-v3", device="cuda", compute_type="float16")
-    b = torchaudio.pipelines.HDEMUCS_HIGH_MUSDB_PLUS
-    sep = b.get_model().eval().to("cuda"); sr_m = b.sample_rate; vi = sep.sources.index("vocals")
+    import sep_util
+    sep, sr_m, vi = sep_util.load_hdemucs("cuda")
 
     def separate(path, vp):                       # as exp_sep_redecode.separate, but the whole song (no 120 s crop)
-        if vp.exists():
-            return audio_io.load_mono16k(vp)
-        w = torch.from_numpy(audio_io.load_stereo(path, sr_m, None))
-        ref = w.mean(0); w = (w - ref.mean()) / (ref.std() + 1e-8)
-        CH, OV = int(20.0 * sr_m), int(2.0 * sr_m)
-        outs, pos = [], 0
-        while pos < w.shape[1]:
-            seg = w[:, pos: pos + CH + OV]
-            with torch.no_grad():
-                o = sep(seg.unsqueeze(0).to("cuda"))[0].cpu()
-            v = o[vi]
-            if pos > 0:
-                v = v[:, OV:]
-            outs.append(v[:, :CH] if pos + CH < w.shape[1] else v)
-            pos += CH
-        V = (torch.cat(outs, 1).mean(0) * (ref.std() + 1e-8)).numpy()
-        vp.parent.mkdir(parents=True, exist_ok=True)
-        audio_io.write_wav16(vp, audio_io.resample(V, sr_m, 16000), 16000)
-        return audio_io.load_mono16k(vp)
+        return sep_util.separate_cached(path, vp, sep, sr_m, vi, "cuda", None)
 
     new = not out.exists()
     with open(out, "a", newline="") as f:
@@ -202,6 +184,7 @@ def run():
                     txt = " ".join(x.text for x in segs)
                 else:
                     voc = separate(mp3, root / demo / "sep_vocals" / folder / f"{uid}.vocals.wav")
+                    assert abs(len(voc) - len(mix)) <= 160, (mp3, len(voc), len(mix))
                     gs = energy_segments(np.asarray(voc, dtype=np.float32)[: len(mix)])
                     kept = sum(e - s for s, e in gs); nseg = len(gs)
                     if gs:

@@ -1,0 +1,26 @@
+{
+ "source": "duplicate transcriptions of identical audio (2B systems, seeds 3-6)",
+ "n_pairs_main": 288,
+ "systems_with_duplicates": [
+  "vad48_2b/B",
+  "vad48_2b/C"
+ ],
+ "off": {
+  "n_dup": 351,
+  "n_differ": 86,
+  "max_abs_diff": 0.5133,
+  "rerun_sd_per_song": 0.0359,
+  "noise_sd_pair_mean": 0.003,
+  "main_effect": 0.0634,
+  "effect_over_noise": 21.2
+ },
+ "on": {
+  "n_dup": 351,
+  "n_differ": 5,
+  "max_abs_diff": 0.0334,
+  "rerun_sd_per_song": 0.0014,
+  "noise_sd_pair_mean": 0.0001,
+  "main_effect": -0.1777,
+  "effect_over_noise": 1481.9
+ }
+}

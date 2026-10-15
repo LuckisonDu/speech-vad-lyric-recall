@@ -1,4 +1,10 @@
 {
+ "raters": [
+  "R2",
+  "R4",
+  "R1",
+  "R3"
+ ],
  "n_raters": 4,
  "n_items": 59,
  "alpha_ordinal": 0.319,
@@ -10,7 +16,7 @@
    "n_clear": 9,
    "clear_but_P0_lt0.3": 7,
    "clear_but_P1_lt0.3": 6,
-   "clear_but_P2_lt0.3": 1,
+   "clear_but_P2_lt0.3": 2,
    "human_mean": 2.01
   },
   "S2": {
@@ -42,7 +48,7 @@
    "n_clear": 29,
    "clear_but_P0_lt0.3": 22,
    "clear_but_P1_lt0.3": 6,
-   "clear_but_P2_lt0.3": 1,
+   "clear_but_P2_lt0.3": 2,
    "human_mean": 2.212
   }
  },
@@ -50,7 +56,7 @@
   "spearman": {
    "P0": 0.23,
    "P1": 0.254,
-   "P2": 0.339
+   "P2": 0.434
   },
   "diff_ci95": {
    "P1-P0": {
@@ -61,24 +67,24 @@
     ]
    },
    "P2-P0": {
-    "diff": 0.109,
+    "diff": 0.205,
     "ci": [
-     -0.194,
-     0.396
+     -0.075,
+     0.479
     ]
    },
    "P2-P1": {
-    "diff": 0.085,
+    "diff": 0.181,
     "ci": [
-     -0.145,
-     0.329
+     -0.054,
+     0.448
     ]
    }
   },
   "auc_clear_vs_not": {
    "P0": 0.625,
    "P1": 0.588,
-   "P2": 0.633
+   "P2": 0.667
   }
  },
  "reasons": {
@@ -90,6 +96,6 @@
  "flag_check": {
   "n_flagged": 24,
   "flagged_but_clear": 9,
-  "flagged_after_P2_still_low_but_clear": 1
+  "flagged_after_P2_still_low_but_clear": 2
  }
 }

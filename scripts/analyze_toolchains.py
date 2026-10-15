@@ -19,6 +19,8 @@ RESULTS_DIR = Path(__file__).resolve().parent.parent / "results"   # folder hold
 TOOLS = (("fw_thr_0.3", "faster-whisper VAD on (threshold 0.3)"), ("fw_thr_0.1", "faster-whisper VAD on (threshold 0.1)"),
          ("openai", "openai-whisper default"), ("whisperx", "WhisperX default (VAD always on)"),
          ("hf", "transformers pipeline"), ("parakeet", "Parakeet-TDT (non-Whisper)"))
+ACE_SEEDS = ("1", "2")   # vad_gen48.csv has ACE-Step seeds 1-6, but tool_*.csv and vocal_ratio48.csv only have seeds 1 and 2;
+                         # this table puts faster-whisper next to the other toolchains, so all rows must use the same 384 songs: seeds 1 and 2 only
 # =====================
 
 R = RESULTS_DIR
@@ -27,7 +29,7 @@ NAMES = ["2B·B", "2B·C", "XL·B", "XL·C"]
 score = defaultdict(dict)       # condition -> {key: recall}
 nhyp = defaultdict(dict)
 for r in csv.DictReader(open(R / "vad_gen48.csv")):
-    if r["src"] == "gen":
+    if r["src"] == "gen" and r["seed"] in ACE_SEEDS:
         c = "faster-whisper VAD off" if r["vad"] == "False" else "faster-whisper VAD on (threshold 0.5)"
         k = (SYS[(r["exp"], r["arm"])], r["song"], r["seed"]); score[c][k] = float(r["recall"]); nhyp[c][k] = int(r["n_hyp"])
 for tool, label in TOOLS:

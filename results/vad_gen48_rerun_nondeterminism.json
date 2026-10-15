@@ -1,0 +1,14 @@
+{
+ "rows_before": 2684,
+ "rows_after": 1982,
+ "dup_pairs": 702,
+ "pairs_recall_differs": 91,
+ "pairs_recall_diff_gt_0.05": 20,
+ "mean_abs_recall_diff": 0.0061,
+ "max_abs_recall_diff": 0.5133,
+ "differs_by_vad": {
+  "False": 86,
+  "True": 5
+ },
+ "rule": "keep first-written row per key"
+}

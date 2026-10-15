@@ -94,6 +94,7 @@ def run_songs():
                 ref = json.loads((META_DIR / f"{s}.meta.json").read_text())["ref_words"]
                 voc = audio_io.load_mono16k(str(GEN_ROOT / "sep_vocals" / exp / arm / f"{s}@s{sd}.vocals.wav"))
                 mix = np.asarray(audio_io.load_mono16k(str(w), duration=120.0), dtype=np.float32)
+                assert abs(len(voc) - len(mix)) <= 160, (w, len(voc), len(mix))   # vocals must be aligned and the same length as the mix
                 segs = energy_segments(np.asarray(voc, dtype=np.float32)[: len(mix)])
                 t0 = time.time()
                 if segs:

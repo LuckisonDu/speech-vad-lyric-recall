@@ -35,6 +35,8 @@ except Exception:
 # ===== Edit here =====
 RESULTS_DIR = Path(__file__).resolve().parent.parent / "results"   # folder holding the result CSV/JSON files
 META = Path("data/lyrics_meta")   # folder with "<song>.meta.json" files, each containing "ref_words" (reference lyric words of the 120 s window)
+SEEDS = ("1", "2", "3", "4", "5", "6")   # ACE-Step has seeds 1-6, HeartMuLa / LeVo have 1-4. A paired comparison uses the seeds present on both
+                                         # sides (ACE-Step vs HeartMuLa / LeVo = seeds 1-4); per-system statistics use all seeds of that system
 # =====================
 
 R = RESULTS_DIR
@@ -88,8 +90,8 @@ def paired(a, b, m, vad):
     """a - b, cluster bootstrap over songs; returns mean, interval, Wilcoxon p and number of songs."""
     per_song = {}
     for s in songs:
-        # some families have extra seeds 3 and 4; only seeds present on both sides are used (vs ACE-Step this is seeds 1 and 2)
-        ds = [metric((a, s, sd), vad, m) - metric((b, s, sd), vad, m) for sd in ("1", "2", "3", "4")
+        # only seeds present on both sides are used (ACE-Step vs HeartMuLa / LeVo = seeds 1-4)
+        ds = [metric((a, s, sd), vad, m) - metric((b, s, sd), vad, m) for sd in SEEDS
               if (a, s, sd) in rec and (b, s, sd) in rec]
         if ds:
             per_song[s] = st.mean(ds)

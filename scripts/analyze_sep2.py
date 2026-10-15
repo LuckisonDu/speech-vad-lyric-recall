@@ -19,6 +19,8 @@ from analyze_sep_vad import per_lyric, boot
 
 # ===== Edit here =====
 RESULTS_DIR = Path(__file__).resolve().parent.parent / "results"   # folder holding the result CSV/JSON files
+ACE_SEEDS = ("1", "2")   # vad_gen48 / sep_vad48 / energy_gate48 have ACE-Step seeds 1-6, but the htdemucs_ft files (sep2_kept.csv, sep2_asr.csv) only have seeds 1 and 2;
+                         # the two separators are compared side by side on the same 384 songs, so every condition uses seeds 1 and 2 only
 # =====================
 
 R = RESULTS_DIR
@@ -32,12 +34,14 @@ def main():
            "kept_median": {}, "recall_mean": {}, "pairs": {}}
     K = defaultdict(lambda: defaultdict(list))
     for r in csv.DictReader(open(R / "sep2_kept.csv")):
+        if r["seed"] not in ACE_SEEDS:
+            continue
         s = SYS[(r["exp"], r["arm"])]
         for c in KCOLS:
             K[s][c].append(float(r[c]))
     for s in SYS.values():
         out["kept_median"][s] = {c: round(float(np.median(K[s][c])), 2) for c in KCOLS} | {"n": len(K[s]["silero_mix"])}
-    rows = list(csv.DictReader(open(R / "sep2_kept.csv")))
+    rows = [r for r in csv.DictReader(open(R / "sep2_kept.csv")) if r["seed"] in ACE_SEEDS]
     agree = {}
     for g, a_, b_ in [("silero", "silero_hdemucs", "silero_htft"), ("energy", "energy_hdemucs", "energy_htft")]:
         x = np.array([float(r[a_]) for r in rows]); y = np.array([float(r[b_]) for r in rows])
@@ -45,14 +49,16 @@ def main():
     out["separator_agreement_per_song"] = agree
     d = defaultdict(dict)
     for r in csv.DictReader(open(R / "vad_gen48.csv")):
-        if r["src"] == "gen" and (r["exp"], r["arm"]) in SYS:
+        if r["src"] == "gen" and (r["exp"], r["arm"]) in SYS and r["seed"] in ACE_SEEDS:
             d["mix_off" if r["vad"] == "False" else "mix_on"][(SYS[(r["exp"], r["arm"])], r["song"], r["seed"])] = (float(r["recall"]), None)
     for f, c in [("sep_vad48.csv", "hd_vocals_vad"), ("energy_gate48.csv", "hd_egate")]:
         for r in csv.DictReader(open(R / f)):
-            if (r["exp"], r["arm"]) in SYS:
+            if (r["exp"], r["arm"]) in SYS and r["seed"] in ACE_SEEDS:
                 d[c][(SYS[(r["exp"], r["arm"])], r["song"], r["seed"])] = (float(r["recall"]), None)
     if (R / "sep2_asr.csv").exists():
         for r in csv.DictReader(open(R / "sep2_asr.csv")):
+            if r["seed"] not in ACE_SEEDS:
+                continue
             d["ht_" + r["mode"]][(SYS[(r["exp"], r["arm"])], r["song"], r["seed"])] = (float(r["recall"]), float(r["kept_sec"]))
     out["n"] = {c: len(t) for c, t in d.items()}
     for s in SYS.values():

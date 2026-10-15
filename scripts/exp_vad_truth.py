@@ -35,21 +35,17 @@ COND = {
 # =====================
 
 
+_SEP = {}
+
+
 def separate(path):
-    import torch, torchaudio, audio_io
-    b = torchaudio.pipelines.HDEMUCS_HIGH_MUSDB_PLUS
-    sep = b.get_model().eval(); sr_m = b.sample_rate; vi = sep.sources.index("vocals")
-    w = torch.from_numpy(audio_io.load_stereo(str(path), sr_m, None))
-    ref = w.mean(0); w = (w - ref.mean()) / (ref.std() + 1e-8)
-    CH, OV = int(20.0 * sr_m), int(2.0 * sr_m); out, pos = [], 0
-    while pos < w.shape[1]:
-        with torch.no_grad():
-            v = sep(w[:, pos: pos + CH + OV].unsqueeze(0))[0][vi]
-        if pos > 0:
-            v = v[:, OV:]
-        out.append(v[:, :CH] if pos + CH < w.shape[1] else v); pos += CH
-    V = (torch.cat(out, 1).mean(0) * (ref.std() + 1e-8)).numpy()
-    return audio_io.resample(V, sr_m, 16000).astype(np.float32)
+    """Whole-song separation, 16 kHz mono vocals (sample-aligned chunking, see sep_util.py); the model is loaded once."""
+    import torch, sep_util
+    if not _SEP:
+        dev = "cuda" if torch.cuda.is_available() else "cpu"
+        _SEP["m"] = sep_util.load_hdemucs(dev) + (dev,)
+    sep, sr_m, vi, dev = _SEP["m"]
+    return sep_util.separate_16k(path, sep, sr_m, vi, dev, None)
 
 
 def main():
@@ -66,6 +62,8 @@ def main():
         for c, (src, kw) in COND.items():
             if src == "voc" and voc is None:
                 voc = separate(au)
+            if src == "voc":
+                assert abs(len(voc) - len(mix)) <= 160, (i, len(voc), len(mix))
             a = mix if src == "mix" else voc
             segs = [(s["start"] / 16000, s["end"] / 16000) for s in get_speech_timestamps(a, VadOptions(**kw))]
             def kept(ws, we):

@@ -96,6 +96,7 @@ def run_sep(device):
             vn = audio_io.load_mono16k(vp)
             vh = audio_io.load_mono16k(GEN_ROOT / "sep_vocals" / exp / arm / f"{s}@s{sd}.vocals.wav")
             mix = audio_io.load_mono16k(w, duration=WIN_SEC)
+            assert abs(len(vh) - len(mix)) <= 160, (w, len(vh), len(mix))   # HDemucs vocals must be aligned with the mix
             seg = lambda v: round(sum(e - b for b, e in energy_segments(np.asarray(v, dtype=np.float32)[: len(mix)])), 2)
             wr.writerow({"exp": exp, "arm": arm, "song": s, "seed": sd, "silero_mix": silero_kept(mix), "silero_hdemucs": silero_kept(vh),
                          "silero_htft": silero_kept(vn), "energy_hdemucs": seg(vh), "energy_htft": seg(vn),

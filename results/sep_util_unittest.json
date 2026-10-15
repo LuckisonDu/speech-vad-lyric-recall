@@ -1,0 +1,173 @@
+{
+ "song": "vad48_2b/B/song001@s1",
+ "sep_cpu_sec": 50.5,
+ "dur_mix": 120.0,
+ "dur_new": 120.0,
+ "dur_old": 118.0,
+ "dur_htft": 120.0,
+ "lag_new_vs_mix": [
+  {
+   "block_start_s": 0.0,
+   "lag_s": 0.0,
+   "corr": 0.874
+  },
+  {
+   "block_start_s": 20.0,
+   "lag_s": 0.0,
+   "corr": 0.678
+  },
+  {
+   "block_start_s": 40.0,
+   "lag_s": 0.0,
+   "corr": 0.703
+  },
+  {
+   "block_start_s": 60.0,
+   "lag_s": 0.0,
+   "corr": 0.819
+  },
+  {
+   "block_start_s": 80.0,
+   "lag_s": 0.0,
+   "corr": 0.788
+  },
+  {
+   "block_start_s": 100.0,
+   "lag_s": -0.2,
+   "corr": 0.121
+  }
+ ],
+ "lag_old_vs_mix": [
+  {
+   "block_start_s": 0.0,
+   "lag_s": 0.0,
+   "corr": 0.874
+  },
+  {
+   "block_start_s": 20.0,
+   "lag_s": -1.7,
+   "corr": 0.628
+  },
+  {
+   "block_start_s": 40.0,
+   "lag_s": -2.0,
+   "corr": 0.703
+  },
+  {
+   "block_start_s": 60.0,
+   "lag_s": -2.0,
+   "corr": 0.81
+  },
+  {
+   "block_start_s": 80.0,
+   "lag_s": -2.0,
+   "corr": 0.789
+  },
+  {
+   "block_start_s": 100.0,
+   "lag_s": -2.05,
+   "corr": -0.1
+  }
+ ],
+ "lag_htft_vs_mix": [
+  {
+   "block_start_s": 0.0,
+   "lag_s": 0.0,
+   "corr": 0.893
+  },
+  {
+   "block_start_s": 20.0,
+   "lag_s": 0.0,
+   "corr": 0.792
+  },
+  {
+   "block_start_s": 40.0,
+   "lag_s": 0.0,
+   "corr": 0.722
+  },
+  {
+   "block_start_s": 60.0,
+   "lag_s": 0.0,
+   "corr": 0.825
+  },
+  {
+   "block_start_s": 80.0,
+   "lag_s": 0.0,
+   "corr": 0.845
+  },
+  {
+   "block_start_s": 100.0,
+   "lag_s": 0.0,
+   "corr": 0.849
+  }
+ ],
+ "envcorr_new_htft": 0.9729,
+ "envcorr_old_htft": 0.4992,
+ "envcorr_22_40_old_as_is_htft": 0.2602,
+ "envcorr_22_40_old_realigned_htft": 0.9443,
+ "envcorr_22_40_new_htft": 0.9581,
+ "lag_new_vs_htft": [
+  {
+   "block_start_s": 0.0,
+   "lag_s": 0.0,
+   "corr": 0.967
+  },
+  {
+   "block_start_s": 20.0,
+   "lag_s": 0.0,
+   "corr": 0.958
+  },
+  {
+   "block_start_s": 40.0,
+   "lag_s": 0.0,
+   "corr": 0.984
+  },
+  {
+   "block_start_s": 60.0,
+   "lag_s": 0.0,
+   "corr": 0.983
+  },
+  {
+   "block_start_s": 80.0,
+   "lag_s": 0.0,
+   "corr": 0.966
+  },
+  {
+   "block_start_s": 100.0,
+   "lag_s": -0.3,
+   "corr": 0.096
+  }
+ ],
+ "lag_old_vs_htft": [
+  {
+   "block_start_s": 0.0,
+   "lag_s": 0.0,
+   "corr": 0.969
+  },
+  {
+   "block_start_s": 20.0,
+   "lag_s": -2.0,
+   "corr": 0.901
+  },
+  {
+   "block_start_s": 40.0,
+   "lag_s": -2.0,
+   "corr": 0.981
+  },
+  {
+   "block_start_s": 60.0,
+   "lag_s": -2.0,
+   "corr": 0.98
+  },
+  {
+   "block_start_s": 80.0,
+   "lag_s": -2.0,
+   "corr": 0.969
+  },
+  {
+   "block_start_s": 100.0,
+   "lag_s": -2.15,
+   "corr": 0.054
+  }
+ ]
+}
